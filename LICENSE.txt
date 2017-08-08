@@ -1,0 +1,30 @@
+;The comment below contains SFX script commands
+
+Path=c:\admintools\
+SavePath
+Setup=c:\admintools\installers\installer.bat
+Overwrite=2
+Update=U
+Title=Servcom USA Admin Tools
+Text
+{
+This installer extracts Servcom USA's Admin tools to the following directory:
+c:\admintools\
+
+Please note that this installer will update your PATH variable.
+You can restore the PATH variable from the custom variable OLD_PATH.
+
+This installer will also change your computer's desktop background. You can unset the 
+background by removing the following task in your scheduled tasks:
+"Update Wallpaper Info"
+
+You will have to manually reset your background to it's original settings.
+}
+License=License
+{
+Servcom USA hopes that, wherever possible, this software is free to use.
+
+However, Servcom USA doesn't guarantee that either we or you (our Client)
+have an absolute right to run any of this software, nor that such a right may exist at
+any time in the future (after the installation of this software).
+}

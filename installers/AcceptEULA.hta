@@ -1,0 +1,210 @@
+<!--  AcceptEULA.hta (Sysinternals Suite Installer - Accept EULA Dialog)     -->
+
+<!--  SSIBuild (Sysinternals Suite Installer Builder)                        -->
+<!--  Version 2.7 Last Updated: 05:00 PM 11/10/2009 (GMT-5 +1 during DST)    -->
+<!--                                                                         -->
+<!--  Part of SSIBuild (Sysinternals Suite Installer Builder)                -->
+<!--                                                                         -->
+<!--  SSIBuild is Copyright © 2009 Kenneth R. Alcock, all rights reserved.   -->
+<!--  These works may not be redistributed, modified, or published, without  -->
+<!--  the expressed written consent of the author.                           -->
+<!--                                                                         -->
+<!--  SSIBuild.exe (Sysinternals Suite Installer Builder) includes:          -->
+<!--  • All SysinternalsSuite.exe files (listed below)                       -->
+<!--  • The .cmd file: SSIBuild.cmd                                          -->
+<!--  • The .txt file: ReadMe.txt                                            -->
+<!--  • The .ouc file: USBProgram.ouc                                        -->
+<!--  • The .dcf file: Sysinternals.dcf                                      -->
+<!--                                                                         -->
+<!--  SysinternalsSuite.exe (Sysinternals Suite Installer) includes:         -->
+<!--  • The .inf files: InstSSI.inf, AcceptEULA.inf                          -->
+<!--  • The .hta file:  AcceptEULA.hta                                       -->
+<!--  • The .cmd files: SFX-SSI.cmd, Uninstall.cmd                           -->
+<!--  • The .ini files: SFX-SSI.ini                                          -->
+<!--                                                                         -->
+<!--  The Sysinternals Suite of utilities was originally authored by:        -->
+<!--  Mark Russinovich and Bryce Cogswell of Sysinternals.                   -->
+<!--                                                                         -->
+<!--  The Sysinternals Suite is Copyright © 2000-2009 by Sysinternals,       -->
+<!--  a wholly owned subsidiary of the Microsoft Corporation. Read the       -->
+<!--  Eula.txt file included in the SysinternalsSuite.zip download from      -->
+<!--  Microsoft TechNet for Sysinternals Suite licensing restrictions.       -->
+<!--  A shortcut to this file is installed in the Windows Start Menu.        -->
+<!--                                                                         -->
+<!--  Kenneth R. Alcock is not affiliated with or a representative of the    -->
+<!--  Microsoft Corporation.                                                 -->
+
+<HEAD>
+   <TITLE>Sysinternals Suite - End User License Agreement</TITLE>
+   <HTA:APPLICATION 
+      ID="objHTA"
+      APPLICATIONNAME="SSI AcceptEULA"
+      VERSION="2.0"
+      SINGLEINSTANCE="Yes"
+      SHOWINTASKBAR="Yes"
+      WINDOWSTATE="Normal"
+      CAPTION="Yes"
+      BORDERSTYLE="Static"
+      BORDER="Dialog"
+      INNERBORDER="Yes"
+      CONTEXTMENU="No"
+      MAXIMIZEBUTTON="No"
+      MINIMIZEBUTTON="No"
+      SYSMENU="No"
+      SCROLL="No"
+   >
+</HEAD>
+
+<SCRIPT Language="VBScript">
+   Option EXPLICIT
+   Dim idTimer, strBtn, strMsg
+   Dim intWidth, intHeight, intPageCount
+
+   Sub Window_onLoad
+      ConfigForEULA
+   End Sub
+
+   Sub ConfigForEULA
+      ResizeAndCenter 600, 600
+      strMsg = ReadRelative("..", "EULA.txt")
+      txtMessage.Value = strMsg
+      strMsg = "<H2 ID='h2DialogTitle'>End User License Agreement (EULA)</H2>"
+      strMsg = strMsg & "<P ID='pAdvice' STYLE='font-family:""Verdana"",""sans serif"";font-size:8pt;font-weight:500'>"
+      'strMsg = strMsg & "Scroll to the bottom of EULA to activate Accept button.</P>"
+      'tdHeader.InnerHTML = strMsg
+      strBtn =          "<INPUT ID='btnAccept' Name='btnAccept' Type='Button' Value='Accept' TabIndex='2' "
+      'strBtn = strBtn & "Title='The Accept button becomes active after scrolling to the bottom of the EULA.' "
+      strBtn = strBtn & "onClick='vbs:AcceptEULA' ""btnAccept""'> "
+      strBtn = strBtn & "<INPUT ID='btnDecline' NAME='btnDecline' Type='Button' Value='Decline' TabIndex='3' "
+      strBtn = strBtn & "onClick='vbs:DeclineEULA' ""btnDecline""'>"
+      tdButtons.InnerHTML = strBtn
+      txtMessage.Focus
+   End Sub
+
+   Sub ConfigForClose
+      ResizeAndCenter 600, 250
+      txtMessage.Value = strMsg
+      txtMessage.Rows = 5
+      strMsg = "<H2 ID='h2DialogTitle'>End User License Agreement (EULA)</H2>"
+      strMsg = strMsg & "<P ID='pAdvice' STYLE='font-family:""Verdana"",""sans serif"";font-size:8pt;font-weight:500'"
+      strMsg = strMsg & ">Dialog closes automatically in 5 seconds.</P>"
+      tdHeader.InnerHTML = strMsg
+      strBtn = "<INPUT ID='btnClose' Name='btnClose' Type='Button' Value='Close' TabIndex='2' "
+      strBtn = strBtn & "onClick='vbs:CloseApplication' ""btnClose""'>"
+      tdButtons.InnerHTML = strBtn
+      btnClose.Focus
+   End Sub
+
+   Sub ResizeAndCenter (intWidth, intHeight)
+      Window.ResizeTo intWidth, intHeight
+      Window.MoveTo (Screen.Width - intWidth)/2,(Screen.Height - intHeight)/2
+   End Sub
+
+   Sub EventHandler (strElementID, strEvent)
+      Select Case UCASE(strElementID)
+         Case "BTNACCEPT"
+            If Window.Event.KeyCode = 13 Then
+               AcceptEULA
+            End If
+         Case "BTNDECLINE"
+            If Window.Event.KeyCode = 13 Then
+               DeclineEULA
+            End If
+         Case "BTNCLOSE"
+            If Window.Event.KeyCode = 13 Then
+               CloseApplication
+            End If
+         'Case "TXTMESSAGE"
+         '   With txtMessage
+         '      If .ScrollTop = .ScrollHeight - .ClientHeight Then
+         '         btnAccept.Disabled = False
+         '         btnAccept.Focus
+         '      End If
+         '   End With
+         Case Else
+           ' Do Nothing
+      End Select
+   End Sub
+
+   Sub AcceptEULA
+      strMsg =          "All Syinternals Suite utilities run under this user account "
+      strMsg = strMsg & "will now work without first prompting to accept the EULA."
+      strMsg = strMsg & vbNewLine & vbNewLine & vbNewLine & "NOTE: "
+      strMsg = strMsg & "Changes only apply to the currently logged in user!"
+      ConfigForClose
+      LaunchInf "DefaultInstall"
+   End Sub
+
+   Sub DeclineEULA
+      strMsg =          "All Syinternals Suite utilities run under this user account "
+      strMsg = strMsg & "will now individually prompt to accept the EULA first."
+      strMsg = strMsg & vbNewLine & vbNewLine & vbNewLine & "NOTE: "
+      strMsg = strMsg & "Changes only apply to the currently logged in user!"
+      ConfigForClose
+      LaunchInf "Uninstall"
+      'CloseApplication
+   End Sub
+
+   Sub LaunchInf (strInfAction)
+      Dim objShell, strInfCmd
+      strInfCmd = """%SystemRoot%\system32\rundll32.exe"" setupapi.dll,InstallHinfSection "
+      strInfCmd = strInfCmd & strInfAction & " 128 .\AcceptEULA.inf"
+      Set objShell = CreateObject("Wscript.Shell")
+      objShell.Run strInfCmd
+      Set objShell = Nothing
+      idTimer = Window.SetTimeout("CloseApplication", 5000, "VBScript")
+   End Sub
+
+   Sub CloseApplication
+      Window.ClearTimeout(idTimer)
+      Window.Close()
+   End Sub
+
+   Function ReadRelative(strRelativePath, strFileName)
+      ' Do not start or end strRelativePath with "\".
+      Dim objFSO, objFile, strFilePath
+      Set objFSO = CreateObject("Scripting.FileSystemObject")
+      strFilePath = objFSO.GetAbsolutePathName(".")
+      If strRelativePath = "." Then
+         strFilePath = strFilePath & "\" & strFileName
+      Else
+         strFilePath = strFilePath & "\" & strRelativePath & "\" & strFileName
+      End If
+      If objFSO.FileExists(strFilePath) Then
+         Set objFile = objFSO.GetFile(strFilePath)
+         If objFile.Size > 0 Then
+            Set objFile = objFSO.OpenTextFile(strFilePath, 1)
+            ReadRelative = objFile.ReadAll
+            objFile.Close
+         Else
+            ReadRelative  = "File Empty:" & vbNewline & strFilePath
+         End If 
+      Else
+         ReadRelative = "File Missing:" & vbNewline & strFilePath
+      End If
+      Set objFile = Nothing
+      Set objFSO = Nothing
+   End Function
+</SCRIPT>
+
+<BODY STYLE="background-color:#0062BE" ID='Body' OnKeyPress='vbs:EventHandler "Body","OnKeyPress"'>
+   <TABLE ID='tblBody' Width='95%' Height='100%' Align='Center' Border='0'>
+      <TR ID='trHeader' Height='14pt'>
+         <TD ID="tdHeader" Align='Center'>
+         </TD>
+      </TR
+      <TR ID='trMessage' height='100%'>
+         <TD ID='tdMessage'>
+            <TEXTAREA ID="txtMessage" Rows="28" Cols="65" ReadOnly="readonly" TabIndex='1'
+            onScroll='vbs:EventHandler "txtMessage","onScroll"'
+            STYLE="text-align:justify;color:white;border-width:2;border-style:inset;
+            background-color:#D7881F;border-color:black;scrollbar-base-color:#D7881F;
+            scrollbar-arrow-color:#D7881F"'></TEXTAREA>
+         </TD>
+      </TR>
+      <TR ID='trButtons' Height='14pt'>
+         <TD ID='tdButtons' Align='Center'>       
+         </TD>
+      </TR>
+   </TABLE>
+</BODY>

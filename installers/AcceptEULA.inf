@@ -1,0 +1,132 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                                                                         ;;
+;;  InstSSI.inf (Sysinternals Suite Installer Setup Information File)      ;; 
+;;  Version 2.7 Last Updated: 2009-11-10 17:00:00.46 (GMT-5 +1 during DST) ;;
+;;                                                                         ;;
+;;  Part of SSIBuild (Sysinternals Suite Installer Builder)                ;;
+;;                                                                         ;;
+;;  SSIBuild is Copyright © 2009 Kenneth R. Alcock, all rights reserved.   ;;
+;;  These works may not be redistributed, modified, or published, without  ;;
+;;  the expressed written consent of the author.                           ;;
+;;                                                                         ;;
+;;  SSIBuild.exe (Sysinternals Suite Installer Builder) includes:          ;;
+;;  • All SysinternalsSuite.exe files (listed below)                       ;;
+;;  • The .cmd file: SSIBuild.cmd                                          ;;
+;;  • The .txt file: ReadMe.txt                                            ;;
+;;  • The .ouc file: USBProgram.ouc                                        ;;
+;;  • The .dcf file: Sysinternals.dcf                                      ;;
+;;                                                                         ;;
+;;  SysinternalsSuite.exe (Sysinternals Suite Installer) includes:         ;;
+;;  • The .inf files: InstSSI.inf, AcceptEULA.inf                          ;;
+;;  • The .hta file:  AcceptEULA.hta                                       ;;
+;;  • The .cmd files: SFX-SSI.cmd, Uninstall.cmd                           ;;
+;;  • The .ini files: SFX-SSI.ini                                          ;;
+;;                                                                         ;;
+;;  The Sysinternals Suite of utilities was originally authored by:        ;;
+;;  Mark Russinovich and Bryce Cogswell of Sysinternals.                   ;;
+;;                                                                         ;;
+;;  The Sysinternals Suite is Copyright © 2000-2009 by Sysinternals,       ;;
+;;  a wholly owned subsidiary of the Microsoft Corporation. Read the       ;;
+;;  Eula.txt file included in the SysinternalsSuite.zip download from      ;;
+;;  Microsoft TechNet for Sysinternals Suite licensing restrictions.       ;;
+;;  A shortcut to this file is installed in the Windows Start Menu.        ;;
+;;                                                                         ;;
+;;  Kenneth R. Alcock is not affiliated with or a representative of the    ;;
+;;  Microsoft Corporation.                                                 ;;
+;;                                                                         ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Version]
+Signature=$Windows NT$
+Provider=%Provider%
+
+[DefaultInstall]
+AddReg = Reg_EULA
+
+[Uninstall]
+DelReg = Reg_EULA
+
+[Reg_EULA]
+HKCU,%EULAKey%,,0x00002000,
+HKCU,%EULAKey%\AccessChk,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\AccessEnum,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Active Directory Explorer,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\ADInsight,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\A,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\A,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\AutoRuns,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\AutoRuns,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\BGInfo,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\CacheSet,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\ClockRes,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\C,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Coreinfo,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Ctrl2cap,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\DbgView,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Desktops,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Disk2Vhd,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\DiskExt,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Diskmon,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\DiskView,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\EFSDump,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Handle,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Hex2Dec,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Junction,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\LDMDump,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\ListDLLs,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\LiveKd,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\LoadOrder,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\LogonSessions,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\MoveFile,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\NTFSInfo,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PageDefrag,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PendMoves,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PipeList,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PortMon,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\ProcDump,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Process Explorer,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Process Monitor,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\ProcFeatures,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsExec,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsFile,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsGetSID,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsInfo,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsKill,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsList,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\LoggedOn,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsLogList,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsPasswd,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsService,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsShutdown,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\PsSuspend,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\RegDelNull,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\RegJump,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\RootkitRevealer,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\SDelete,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Share Enum,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\ShellRunas - Sysinternals: www.sysinternals.com,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\SigCheck,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Streams,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Strings,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\Sync,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\TCPView,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\TCPView,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\VMMap,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\VolumeID,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\WhoIs,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\WinObj,"EulaAccepted",0x00010001,1
+HKCU,%EULAKey%\ZoomIt,"EulaAccepted",0x00010001,1
+
+[Strings]
+Provider           = "Kenneth R. Alcock"
+Manufacturer       = "Sysinternals"
+Product            = "Sysinternals Suite"
+EULAKey            = "SOFTWARE\Sysinternals"
+UninstallKey       = "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"
+UninstallSubKey    = "Sysinternals Suite"
+UninstallComments  = "Sysinternals Suite Installer Copyright ©2009 Kenneth R. Alcock, All rights reserved."
+URLUpdateInfo      = "http://www.sysinternals.com"
+URLInfoAbout       = "http://www.sysinternals.com"
+URLHelpLink        = "http://www.msfn.org/board/index.php?showtopic=125201"
+Contact            = "Kenneth R. Alcock"
+

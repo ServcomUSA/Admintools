@@ -1,0 +1,66 @@
+Random Data File Creator (RDFC)
+*******************************
+
+Copyright ©2004 by Michael Berthold
+http://www.bertel.de/software/rdfc
+
+Description
+***********
+
+Random Data File Creator, briefly RDFC, is a console application for Microsoft Windows, which can be used to create binary files of any size filled with random numbers. So, for example developers can create very large files (i.e. 1 TB) in order to test, how their own application deals with it.
+
+Usage
+*****
+
+You can run rdfc.exe in a console window under Windows, the dialog Execute… or from any other application, which can hand over starting parameters. The following starting parameters are possible:
+
+rdfc.exe <file> <size> [<unit> [<overwrite>]]
+
+<file> stands for path and name of the file which is to be created.
+
+<size> stands for the file size. You can put in any number larger than 0. Note that the number is interpreted with the unit as set for <unit>.
+
+<unit> stands for the unit of the file size. Possible values are GB, MB, kB and B, where B is the default value.
+
+<overwrite> makes it possible to overwrite existing files. Set the fourth starting parameter to overwrite. Otherwise application stops, if the file indicated by <file> already exists.
+
+Note: The Application does not examine whether sufficient place on the hard disk (or the indicated medium) for the file to create. Also the restriction of the maximum file size by some file systems is not examined. If an error occours the application will stop with an appropriate message.
+
+System Requirements
+*******************
+
+Microsoft Windows 98/ME/2000/XP/2003 
+Sufficient place on the hard disk 
+
+Download and Installation
+*************************
+
+Download the ZIP archive ((http://www.bertel.de/software/rdfc/) and unpack it into any folder on your hard disk. There ist no installation necessary.
+
+License
+*******
+
+Copyright ©2004, Michael Berthold
+
+Random Data File Creator (RDFC) is freeware. You may use the application for all possible purposes. The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
+
+Contact
+*******
+
+If you have problems with the application, errors to announce, suggestions or you simply want to express your thanks, you will reack me as follows:
+
+Michael Berthold
+Doehlener Strasse 34
+01159 Dresden
+Germany
+
+E-Mail: software@bertel.de
+
+Changes
+*******
+
+Version 0.1.0.5 (2004/12/20): Release. 
+
+
+
+Last change 2004/12/19, Copyright ©2004 Michael Berthold
