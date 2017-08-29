@@ -12,6 +12,6 @@ if "%bginfo_path%"=="" (
 	ECHO "no path; quit"
 	GOTO :EOF
 )
-schtasks /create /tn "Update Wallpaper Info" /tr "%bginfo_path%\bginfo.exe %bginfo_path%\bginfo.bgi /silent /nolicprompt /timer:0" /sc ONLOGON    
+schtasks /create /tn "Update Wallpaper Info" /tr "%bginfo_path%\bginfo.exe %bginfo_path%\bginfo.bgi /silent /nolicprompt /timer:0" /sc ONLOGON /F   
 
 endlocal
