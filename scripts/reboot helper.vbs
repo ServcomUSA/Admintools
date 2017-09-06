@@ -246,7 +246,11 @@ Function ScheduleTask( )
 			
 			MsgBox (strTaskExecCommand)
 			errorVal = shell.Run(strTaskExecCommand,1,true) 
-			MsgBox( "Reported Error: " & errorVal )
+			If errorVal <> 0 Then
+				MsgBox( "Reported Error: " & errorVal )
+			Else
+				MsgBox( "Reboot successfully scheduled." )
+			End If
 			Set shell = Nothing
 			
 		case else
