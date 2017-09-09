@@ -89,8 +89,8 @@ function Test-PingAndDNSLookup
                 #decide if we want a forward or reverse DNS value, based on $target
                 if ($target -as [ipaddress]) {
                     #default to "Name" (reverse DNS) - assuming we are being passed an IP Address
-                    $dnsLookupType = "Name"
-                    $dnsLookupResult = Resolve-DnsName $target -Server $DnsServer
+                    $dnsLookupType = "NameHost"
+                    $dnsLookupResult = Resolve-DnsName $target -Server $DnsServer -Type PTR
                 } else {
                     #if this isn't specifically an IP address, we fail back and assume this is an FQDN, instead
                     #switch the lookup type to "IPAddress" (forward)
