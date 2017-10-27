@@ -4,6 +4,9 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
+v.3.1.2 Changelog
+=================
+=================
 v.3.1.1 Changelog
 Known Issues 
 - You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
