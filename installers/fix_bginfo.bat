@@ -4,7 +4,7 @@ set taskname="Update Wallpaper Info"
 cd \
 schtasks /query | find %taskname% > NUL
 IF ERRORLEVEL 1 goto :quit
-schtasks /change /tn %taskname% /tr "c:\admintools\bginfo.exe c:\admintools\bginfo.bgi /SILENT /NOLICPROMPT /TIMER:00"
+schtasks /change /tn %taskname% /tr "c:\admintools\bginfo64.exe c:\admintools\bginfo.bgi /SILENT /NOLICPROMPT /TIMER:00"
 IF ERRORLEVEL 1 goto :fail
 echo Task updated.
 goto :eof
