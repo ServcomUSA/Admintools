@@ -6,7 +6,7 @@ REM the admintools.exe file was installed to c:\admintools\. It will
 REM terminate if the path is different.
 REM **
 
-setx /m SC_ADMINTOOLS_VERSION "2.13"
+REM setx /m SC_ADMINTOOLS_VERSION "2.13"
 
 if exist c:\admintools\installers cd c:\admintools\installers
 echo. 
