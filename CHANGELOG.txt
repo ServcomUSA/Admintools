@@ -4,6 +4,18 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
+v.3.1.4 Changelog
+Emergency Release to address CVE-2018-10115: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10115
+
+7zip has been replaced with a version that is not affected by this security advisory.
+New version is 18.05.
+
+Included Software versions
+(=[no change], ~[updated], +[new], -[removed])
+~ 7zip: 18.05
+= all others
+=================
+=================
 v.3.1.3 Changelog
 Known Issues 
 - You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
