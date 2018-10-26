@@ -1,0 +1,55 @@
+LanTopoLog 2 License Agreement 
+
+LanTopoLog 2 version 2.xx
+
+The copyright for this Software belongs to Yuriy Volokitin.
+This program is shareware.
+Use and/or distribute it under the terms of the LanTopoLog license.
+Your use of this Software indicates your acceptance of this license
+agreement and warranty.
+
+LICENSE
+
+You are hereby licensed to use the Demo version of the Software for an unlimited period.
+When you purchase LanTopoLog, you will receive a license key file
+that will convert the demo into the full version.
+The license key is bound to up to 3 switches that you select during the registration process.
+At least one of them must always be present on the LanTopoLog map (although may be
+temporarily turned off), otherwise your copy of LanTopoLog is not considered registered.
+If all of these switches are replaced then you will need to purchase the new license. 
+You cannot add other switches to your license in the future
+even you select only one switch during the registration process.
+In the future you can add new switches to your network, however, your license remains valid.
+You need only one license for local network with up to 10000 managed switches.
+One license allow you to run LanTopoLog on multiple computers simultaneously.
+
+All rights not expressly granted here are reserved by Yuriy Volokitin.
+
+Restrictions 
+------------
+You may not emulate, rent, lease, sell, modify, decompile, disassemble,
+reverse engineer, create derivative works based on the Software,
+or transfer the licensed program, or any subset of the licensed program.
+The Software, in whole or in part, may not be 
+incorporated with or into any other software product.
+Any such unauthorized use shall result in immediate and automatic
+termination of this license.
+
+
+Disclaimer of Warranty
+----------------------
+This Software is provided "AS IS" and without warranty of any kind,
+express, implied or otherwise, including without limitation, any warranty 
+of merchantability or fitness for a particular purpose. 
+The entire risk arising out of use or performance 
+of the Software remains with you.
+
+
+Distribution 
+------------
+The LanTopoLog 2 Demo version may be freely distributed, provided distribution package
+is not modified  and form a complete package when distributed.
+This license must be included with all copies of the Software,
+and may not be modified from its original format as created by the Licensor.
+
+If you do not agree with the terms of this license you must cease to use the product.
