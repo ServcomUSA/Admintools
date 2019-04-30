@@ -1,0 +1,18 @@
+; A line with a ";" in the first position is ignored.
+; You can add any code to LanTopoLog php webpages. 
+; Place your php code after command #Add... and  #Insert...
+; To enable your code rename this file to add_php.txt
+; To disable your code delete or rename the file add_php.txt 
+; Edit this example (remove unused commands): 
+#Add to the beginning:
+<?php 
+session_start();
+if(!isset($_SESSION["session_username"])) {
+header("location:login.php"); }
+?>
+#Insert before: </HEAD><body><pre>
+<?php ... ?>
+#Insert after: </HEAD><body><pre>
+<?php include("includes/header.php"); ?>
+#Add to the end:
+<?php ... ?>

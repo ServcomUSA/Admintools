@@ -1,8 +1,8 @@
 
 
 
-WakeMeOnLan v1.83
-Copyright (c) 2011 - 2018 Nir Sofer
+WakeMeOnLan v1.84
+Copyright (c) 2011 - 2019 Nir Sofer
 Web site: http://www.nirsoft.net
 
 
@@ -52,6 +52,11 @@ System Requirements And Limitations
 Versions History
 ================
 
+
+* Version 1.84
+  o Fixed bug: WakeMeOnLan failed to remember the last size/position
+    of the main window if it was not located in the primary monitor.
+  o Updated the internal MAC addresses database.
 
 * Version 1.83
   o Updated the internal MAC addresses database.
@@ -419,7 +424,7 @@ Specifies whether to scan the IP addresses range of the specified adapter
 (/NetworkAdapter)
 0 = No, 1 = Yes
 
-/UseNetworkAdapter <Name>
+/NetworkAdapter <Name>
 Specifies the network adapter name when /UseNetworkAdapter is 1
 
 /MacAddressFormat <1 | 2 | 3>
