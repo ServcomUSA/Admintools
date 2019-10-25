@@ -4,6 +4,59 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
+v.3.1.7 Changelog
+Known Issues 
+- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
+- Some (not sure how many) of the GUI-based utilities do not work under Server Core/Nano. Same goes for most of the installers.
+- #55263 - When installing Nmap, the netcap driver may break Windows VPN servers:
+>>> Workaround: do not install the loopback driver during Nmap installation <<<
+
+Bug Fixes
+
+
+Programming Changes
+	New Script: Add-UserToLocalAdminOnRemotePCs.ps1 - can add a user account to a specific group on multiple PCs
+	Netscan (Advanced IP Scanner) switched to the extracted/portable version
+	- note that the application path has changed to \admintools\netscan - use the icon!
+
+	WSUS Offline tool will be retired from this utility in 2020
+
+
+Included Software Versions:
+(=[no change], ~[updated], +[new], -[removed])
+	Root Applications
+	= ADModify: 2.1.2761
+	= Advanced IP Scanner (as netscan.exe): 2.5.3850
+	= arp-ping: 0.5 (9/29/2016)
+	= DumpSec: 2.8.7
+	= FCIV - Publish Date: 5/17/2004
+	~ LanTopoLog2 Portable: 2.44
+	= md5.exe - Build Date: 01/14/2008
+	= Passutils: 1.0.0.4
+	~ Putty (x64): 0.73
+	= rdfc.exe: 0.1.0.5
+	= RichCopy: 4.0.217.0
+	~ rufus-portable.exe: 3.8
+	= SpaceSniffer: 1.3.0.2
+	~ Sysinternals - Build Date: 06/27/2019
+	~ VNC-Viewer: 6.19.923
+	~ WakeMeOnLAN: 1.85
+	= Wget: 1.11.4
+	= wsname: 2.93
+		
+	Installable Applications
+	= 7zip: 19.00
+	~ Crystal DiskInfo: 8.3.1
+	= Net-snmp: 5.7.0-1
+	~ Nmap: 7.80
+	~ Notepad++: 7.8
+	= Password Control: 2.4
+	= TFTPd: 4.64
+	= WiseSoftBulkADUsers: 1.0 beta2
+	~ wsusoffline: 11.8.1
+
+=================
+=================
 v.3.1.6 Changelog
 Known Issues 
 - You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)

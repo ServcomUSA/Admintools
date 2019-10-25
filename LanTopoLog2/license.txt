@@ -19,7 +19,7 @@ temporarily turned off), otherwise your copy of LanTopoLog is not considered reg
 If all of these switches are replaced then you will need to purchase the new license. 
 In the future you can add new switches to your network, however, your license remains valid.
 You need only one license for local network with up to 10000 managed switches.
-One license allow you to run LanTopoLog on multiple computers simultaneously.
+One license allows you to run LanTopoLog on multiple computers simultaneously.
 
 All rights not expressly granted here are reserved by Yuriy Volokitin.
 
