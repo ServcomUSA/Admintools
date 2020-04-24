@@ -1,0 +1,45 @@
+LanTopoLog 2 Lizenzvereinbarung
+
+Das Copyright fur LanTopoLog 2 liegt bei Yuriy Volokitin.
+
+Diese Software ist Shareware.
+Verwenden und/oder verteilen Sie es unter den Bedingungen der
+LanTopoLog 2 Lizenz.
+Ihre Verwendung dieser Software bedeutet, dass Sie diese Lizenz
+akzeptieren Vereinbarung und Gewahrleistung.
+
+LIZENZ
+
+Sie sind hiermit berechtigt, die Demo-Version der Software fur einen unbegrenzten Zeitraum zu verwenden.
+Wenn Sie LanTopoLog erwerben, erhalten Sie eine Lizenzschlussel-Datei,
+die die Demo in die Vollversion umwandeln.
+Der Lizenzschlussel ist an die switches gebunden, die Sie wahrend der
+Registrierungsprozess. Sie konnen bis zu drei switches zur Lizenzierung auswahlen.
+Mindestens einer von ihnen muss immer auf der LanTopoLog-Karte vorhanden sein.
+Andernfalls wird Ihre Kopie von LanTopoLog nicht als registriert angesehen.
+Der Lizenzschlussel kann nicht erneuert werden, d. h., wenn alle
+3 dieser switches ersetzt, dann mussen Sie die neue Lizenz erwerben.
+Sie benotigen nur eine Lizenz fur ein lokales Netzwerk mit bis zu 10000 verwalteten switches.
+Mit einer Lizenz konnen Sie LanTopoLog auf mehreren Computern gleichzeitig ausfuhren.
+
+Alle hier nicht ausdrucklich gewahrten Rechte sind Yuriy Volokitin vorbehalten.
+
+Beschrankungen
+Sie durfen nicht emulieren, vermieten, verkaufen, modifizieren, dekompilieren,
+disassemblieren, reverse engineering. Jede solche unbefugte Verwendung
+fuhrt zu in sofortiger und automatischer Beendigung dieser Lizenz.
+
+Haftungsausschluss
+Diese Software wird "AS IS" und ohne jegliche Gewahrleistung bereitgestellt.
+ausdrucklich, implizit oder anderweitig.
+Das gesamte Risiko, das sich aus der Nutzung oder Leistung der Software ergibt
+bleibt bei dir.
+
+Verteilung
+Diese Lizenz muss in allen Kopien der Software enthalten sein.
+und durfen nicht von ihrem ursprunglichen Format geandert werden,
+wie es von der Lizenzgeber.
+
+Wenn Sie mit den Bedingungen dieser Lizenz nicht einverstanden sind,
+mussen Sie die Nutzung des Produkts einstellen.
+

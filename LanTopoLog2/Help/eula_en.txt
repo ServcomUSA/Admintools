@@ -1,0 +1,48 @@
+LanTopoLog 2 License Agreement
+
+The copyright for LanTopoLog 2 belongs to Yuriy Volokitin.
+
+This Software is shareware.
+Use and/or distribute it under the terms of the LanTopoLog 2 license.
+Your use of this Software indicates your acceptance of this license
+agreement and warranty.
+
+LICENSE
+
+You are hereby licensed to use the Demo version of the Software for an unlimited period.
+When you purchase LanTopoLog, you will receive a license key file
+that will convert the demo into the full version.
+The license key is bound to the switches that you select during the
+registration process. You can select up to three switches for licensing.
+At least one of them must always be present on the LanTopoLog map,
+otherwise, your copy of LanTopoLog is not considered registered.
+License key is not renewable, that is, if all 3 of these switches are
+replaced, then you will need to purchase the new license.
+You need only one license for local network with up to 10000 managed switches.
+One license allows you to run LanTopoLog on multiple computers simultaneously.
+
+All rights not expressly granted here are reserved by Yuriy Volokitin.
+
+Restrictions
+You may not emulate, rent, lease, sell, modify, decompile, disassemble,
+reverse engineer. Any such unauthorized use shall result
+in immediate and automatic termination of this license.
+
+Disclaimer of Warranty
+This Software is provided "AS IS" and without warranty of any kind,
+express, implied or otherwise.
+The entire risk arising out of use or performance of the Software
+remains with you.
+
+Distribution
+The LanTopoLog 2 Demo version may be freely distributed,
+provided distribution package is not modified and form
+a complete package when distributed.
+This license must be included with all copies of the Software,
+and may not be modified from its original format as created by
+the Licensor.
+
+All updates to the LanTopoLog 2 are free.
+
+If you do not agree with the terms of this license you must cease to use the product.
+

@@ -1,0 +1,47 @@
+Contrat de licence LanTopoLog 2
+
+Le copyright de LanTopoLog 2 appartient a Yuriy Volokitin.
+
+Ce Logiciel est un shareware.
+Utilisez et/ou distribuez-le selon les termes de la licence LanTopoLog 2.
+Votre utilisation de ce Logiciel indique votre acceptation de cette licence
+accord et garantie.
+
+LICENCE
+
+Vous etes autorise a utiliser la version de demonstration du Logiciel pour une duree illimitee.
+Lorsque vous achetez LanTopoLog, vous recevrez un fichier de cle de licence
+qui convertira la demo en version complete.
+La cle de licence est liee aux commutateurs que vous selectionnez au cours de
+processus d'inscription. Vous pouvez selectionner jusqu'a trois commutateurs pour obtenir une licence.
+Au moins l'un d'entre eux doit toujours etre present sur la carte LanTopoLog,
+sinon, votre copie de LanTopoLog n'est pas consideree comme enregistree.
+La cle de licence n'est pas renouvelable, c'est-a-dire si les 3 commutateurs sont
+remplace, vous devrez ensuite acheter la nouvelle licence.
+Vous n'avez besoin que d'une seule licence pour le reseau local avec jusqu'a 10000 commutateurs geres.
+Une licence vous permet d'executer LanTopoLog sur plusieurs ordinateurs simultanement.
+
+Tous les droits non expressement accordes ici sont reserves par Yuriy Volokitin.
+
+Restrictions
+Vous ne pouvez pas emuler, louer, louer, vendre, modifier, decompiler, desassembler,
+ingenieur inverse. Toute utilisation non autorisee de ce type entraine
+resiliation immediate et automatique de cette licence.
+
+Avertissement de la garantie
+Ce Logiciel est fourni "TEL QUEL" et sans aucune garantie,
+expresse, implicite ou autre.
+Tout le risque lie a l'utilisation ou aux performances du Logiciel
+reste avec toi.
+
+Distribution
+La version de demonstration LanTopoLog 2 peut etre distribuee librement,
+pourvu que le package de distribution ne soit pas modifie et que le formulaire
+un paquet complet lorsqu'il est distribue.
+Cette licence doit etre incluse avec toutes les copies du Logiciel,
+et ne peut pas etre modifie a partir de son format d'origine tel que cree par
+le concedant.
+
+Toutes les mises a jour du LanTopoLog 2 sont gratuites.
+
+Si vous n'etes pas d'accord avec les conditions du present permis

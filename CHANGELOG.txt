@@ -4,6 +4,60 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
+v.3.1.8 Changelog
+Known Issues 
+	None
+
+Bug Fixes
+	#15378 - You can schedule reboots in the past with the reboot helper.
+	#15379 - Server core compatibility - admintools is not officially supported on Server Core/Nano or other Windows server instances w/o a GUI
+	#55263 - When installing Nmap, the netcap driver may break Windows VPN servers; updated versions of netpcap drivers should no longer present this issue, but we still recommend 
+		that you not install the loopback driver on VPN servers
+	#99822 - Custom Views installed by Admintools fail to load on servers without the July 2019 updates installed on them; please make sure this update is installed on machines, or remove the Custom Views from the installation;
+		a note has been added to the installer wizard to indicate this compatibility issue
+
+
+Programming Changes
+	New Tool: TreeSize Free
+	WSUS Offline tool has been retired from this tool - Ticket #92967
+
+
+Included Software Versions:
+(=[no change], ~[updated], +[new], -[removed])
+	Root Applications
+	= ADModify: 2.1.2761 [no longer maintained by MS]
+	= Advanced IP Scanner (as netscan.exe): 2.5.3850
+	= arp-ping: 0.5 (9/29/2016)
+	= DumpSec: 2.8.7
+	= FCIV - Publish Date: 5/17/2004
+	~ LanTopoLog2 Portable: 2.45
+	= md5.exe - Build Date: 01/14/2008
+	= Passutils: 1.0.0.4
+	= Putty (x64): 0.73
+	= rdfc.exe: 0.1.0.5
+	= RichCopy: 4.0.217.0
+	~ rufus-portable.exe: 3.10
+	= SpaceSniffer: 1.3.0.2
+	~ Sysinternals - Build Date: 12/18/2019
+	~ VNC-Viewer: 6.20.113
+	= WakeMeOnLAN: 1.85
+	~ Wget: 1.20.3
+	= wsname: 2.93
+		
+	Installable Applications
+	= 7zip: 19.00
+	~ Crystal DiskInfo: 8.4.2
+	= Net-snmp: 5.7.0-1
+	= Nmap: 7.80
+	~ Notepad++: 7.8.6
+	= Password Control: 2.4
+	= TFTPd: 4.64
+	+ TreeSize Free: 4.41
+	= WiseSoftBulkADUsers: 1.0 beta2
+	- wsusoffline: 11.8.1
+
+=================
+=================
 v.3.1.7 Changelog
 Known Issues 
 - You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)

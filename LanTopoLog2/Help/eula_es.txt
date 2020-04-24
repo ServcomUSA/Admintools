@@ -1,0 +1,48 @@
+Acuerdo de Licencia de LanTopoLog 2
+
+Los derechos de autor de LanTopoLog 2 pertenecen a Yuriy Volokitin.
+
+Este Software es shareware.
+Utilicelo y/o distribuya bajo los terminos de la licencia de LanTopoLog 2.
+El uso de este software indica su aceptacion de esta licencia acuerdo y garantia.
+
+LICENCIA
+
+Se le otorga la licencia para utilizar la version Demo del Software por un periodo ilimitado.
+Cuando compre LanTopoLog, recibira un archivo de clave de licencia que
+convertira la demostracion en la version completa.
+La clave de licencia esta enlazada a los switches que seleccione
+durante el proceso de registro.
+Puede seleccionar hasta tres switches para la licencia.
+Al menos uno de ellos debe estar siempre presente en el mapa de LanTopoLog,
+de lo contrario, su copia de LanTopoLog no se considera registrada.
+La clave de licencia no es renovable, es decir, si los 3 switches son
+sustituido, entonces necesitara adquirir la nueva licencia.
+Solo necesita una licencia para la red local con hasta 10000 switches administrados.
+Una licencia permite ejecutar LanTopoLog en varios equipos simultaneamente.
+
+Todos los derechos no otorgados expresamente aqui estan reservados por Yuriy Volokitin.
+
+Restricciones
+No puede emular, alquilar, arrendar, vender, modificar, descompilar, desmontar,
+ingenieria inversa. Cualquier uso no autorizado debera dar lugar a
+en caso de extincion inmediata y automatica de esta licencia.
+
+Renuncia de garantia
+Este Software se suministra "TAL CUAL" y sin garantia de ningun tipo,
+expreso, implicito o de otro tipo.
+Todo el riesgo derivado del uso o rendimiento del Software
+permanece contigo.
+
+
+Distribucion
+La version demo de LanTopoLog 2 puede distribuirse libremente,
+el paquete de distribucion proporcionado no se modifica y forma
+un paquete completo cuando se distribuye.
+Esta licencia debe incluirse con todas las copias del Software,
+y no puede ser modificado desde su formato original como fue creado por
+el licenciante.
+
+Todas las actualizaciones de LanTopoLog 2 son gratuitas.
+
+Si no esta de acuerdo con los terminos de esta licencia, debe dejar de usar el producto.
