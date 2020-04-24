@@ -210,12 +210,12 @@ Function ScheduleTask( )
 		case "4"
 			 strStartDate = UpdateValue("Start Date", strStartDate, "MM/DD/YYYY")
 			if ValidateFormat( strStartDate, 2) = 0 then
-				MsgBox("The following value is not a recognized date: " & strStartDate " - Please re-enter using the required format (MM/DD/YYYY)") 
+				MsgBox("The following value is not a recognized date: " & strStartDate & vbcrlf & "Please re-enter using the required format (MM/DD/YYYY)" ) 
 				strStartDate =  strStartDate & "%INVALIDSTRING"
 			end if
 			if (IsDate(strStartDate)) then
 				if ( CDate(strStartDate) < Date() ) then
-					MsgBox("Error: Date selected is in the past. Date will be reset to default. Your input: " & strStartDate & "// Current Date: " & Date() )
+					MsgBox("Error: Date selected is in the past. Date will be reset to default. " & vbcrlf & "Your input: " & strStartDate & vbcrlf & "Current Date: " & Date() )
 					strStartDate = strSchedMonth & _ 
 						"/" & strSchedDay & _
 						"/" & strSchedYear
