@@ -1,6 +1,8 @@
 'Reboot script
 '
 
+On Error Resume Next
+
 'Options - 1. Single Instance / Recurring [One Time]
 '          2. Time - [Tonight, 2100]
 '          3. Force Reboot? [Y]
@@ -208,7 +210,16 @@ Function ScheduleTask( )
 		case "4"
 			 strStartDate = UpdateValue("Start Date", strStartDate, "MM/DD/YYYY")
 			if ValidateFormat( strStartDate, 2) = 0 then
-				 strStartDate =  strStartDate & "%INVALIDSTRING"
+				MsgBox("The following value is not a recognized date: " & strStartDate " - Please re-enter using the required format (MM/DD/YYYY)") 
+				strStartDate =  strStartDate & "%INVALIDSTRING"
+			end if
+			if (IsDate(strStartDate)) then
+				if ( CDate(strStartDate) < Date() ) then
+					MsgBox("Error: Date selected is in the past. Date will be reset to default. Your input: " & strStartDate & "// Current Date: " & Date() )
+					strStartDate = strSchedMonth & _ 
+						"/" & strSchedDay & _
+						"/" & strSchedYear
+				end if
 			end if
 		case "5"
 			shell.Popup (strShutdownArgsExplained)
