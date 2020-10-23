@@ -4,6 +4,71 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
+v.3.2.0 Changelog
+	Maintenance release; cleaning up old software that is no longer needed. 
+	Truncating the Changelog file, as well.
+	
+Known Issues 
+	None
+
+Bug Fixes
+	None
+
+
+Programming Changes
+	Removing the following applications:
+		ADModify (abandoned util, features now native to PowerShell)
+		arp-ping
+		wget (features now native to PowerShell)
+		SpaceSniffer - use TreeSize
+		WiseSoftBulkADUsers (abandoned util, features now native to PowerShell)
+		Password Control
+	Removing \installers\fix_bginfo.bat - no longer needed
+
+Included Software Versions:
+(=[no change], ~[updated], +[new], -[removed])
+	Root Applications
+	- ADModify: 2.1.2761 [no longer maintained by MS]
+	- arp-ping: 0.5 (9/29/2016)
+	= DumpSec: 2.8.7
+	= FCIV - Publish Date: 5/17/2004
+	= md5.exe - Build Date: 01/14/2008
+	= Passutils: 1.0.0.4
+	~ Putty (x64): 0.74
+	~ rufus-portable.exe: 3.12
+	- SpaceSniffer: 1.3.0.2
+	~ Sysinternals - Build Date: 10/15/2020
+	~ VNC-Viewer: 6.20.529
+	- Wget: 1.20.3
+	= wsname: 2.93
+	
+	\DiskWriteTest
+	= rdfc.exe: 0.1.0.5
+	= RichCopy: 4.0.217.0	
+	
+	\LanTopoLog2
+	~ LanTopoLog2 Portable: 2.46
+
+	\netscan
+	= Advanced IP Scanner (as netscan.exe): 2.5.3850
+	
+	\WakeMeOnLAN
+	~ WakeMeOnLAN: 1.86
+
+	
+	\installers (Installable Applications)
+	= 7zip: 19.00
+	~ Crystal DiskInfo: 8.8.9
+	= Net-snmp: 5.7.0-1
+	~ Nmap: 7.91
+	~ Notepad++: 7.9
+	- Password Control: 2.4
+	= TFTPd: 4.64
+	~ TreeSize Free: 4.42
+	- WiseSoftBulkADUsers: 1.0 beta2
+
+=================
+=================
 v.3.1.8 Changelog
 Known Issues 
 	None
@@ -405,381 +470,4 @@ Included Software Versions:
 	= TFTPd: 4.52
 	= WiseSoftBulkADUsers: 1.0 beta2
 	= wsusoffline: 10.8
-=================
-=================
-v.3.0.2 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-- x64-bit support only, going forward
-
-Programming Changes
-- None
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	= Sysinternals - Build Date: 02/02/2016
-	= ADModify: 2.1.2761
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	= Netscan: 6.1.5
-	= Passutils: 1.0.0.4
-	= Putty: beta 0.67
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	= SpaceSniffer: 1.2.0.2
-	= Wget: 1.11.4
-	= wsname: 2.93
-	+ VNC-Viewer: 5.3.2
-
-	Installable Applications
-	= Crystal DiskInfo: 6.8.1
-	= Net-snmp: 5.7.0-1
-	= Nmap: 7.12
-	= Notepad++: 6.9.1
-	= Password Control: 2.4
-	= TFTPd: 4.52
-	= WiseSoftBulkADUsers: 1.0 beta2
-	= wsusoffline: 10.7
-
-=================
-v.3.0.1 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-- x64-bit support only, going forward
-
-Programming Changes
-- None
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	= Sysinternals - Build Date: 02/02/2016
-	= ADModify: 2.1.2761
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	= Netscan: 6.1.5
-	= Passutils: 1.0.0.4
-	= Putty: beta 0.67
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	= SpaceSniffer: 1.2.0.2
-	= Wget: 1.11.4
-	= wsname: 2.93
-
-	Installable Applications
-	= Crystal DiskInfo: 6.8.1
-	= Net-snmp: 5.7.0-1
-	= Nmap: 7.12
-	= Notepad++: 6.9.1
-	= Password Control: 2.4
-	= TFTPd: 4.52
-	= WiseSoftBulkADUsers: 1.0 beta2
-	+ wsusoffline: 10.7
-
-==================================
-=================
-v.3.0.0 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-- x64-bit support only, going forward
-
-Programming Changes
-- No longer support 32-bit OSes - x64 only from now on
-- Upgraded installer - new full GUI installer, integrates into Programs in Windows
-- Program group in the Start Menu - will have some more links to programs, in the future
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	~ Sysinternals - Build Date: 02/02/2016
-	= ADModify: 2.1.2761
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	~ Netscan: 6.1.5
-	= Passutils: 1.0.0.4
-	~ Putty: beta 0.67
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	= SpaceSniffer: 1.2.0.2
-	= Wget: 1.11.4
-	= wsname: 2.93
-
-	Installable Applications
-	~ Crystal DiskInfo: 6.8.1
-	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.12
-	~ Notepad++: 6.9.1
-	= Password Control: 2.4
-	= TFTPd: 4.52
-	= WiseSoftBulkADUsers: 1.0 beta2
-
-=================
-=================
-v.2.13 Changelog
-
-Known Bugs 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-
-Programming changes:
-- Removed Microsoft Message Analyzer to save space in the installer.
-- Removed Wireshark to save space in the installer.
-- Removed WinRAR to save space in the installer.
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-~ Sysinternals - Build Date: 10/26/2015
-= SpaceSniffer: 1.2.0.2
-~ Crystal DiskInfo: 6.5.2
-- Microsoft Message Analyzer: 1.2
-= Net-snmp: 5.7.0-1
-= Nmap: 6.4.7
-~ Notepad++: 6.8.5
-= Password Control: 2.4
-= TFTPd: 4.52
-- WinRAR 5.21
-- Wireshark: 1.12.4
-= WiseSoftBulkADUsers: 1.0 beta2
-= wsname: 2.93
-=================
-=================
-v.2.12 Changelog
-
-Known Bugs 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-
-Programming changes:
-- BUGFIX: Ticket #26049 - installer.bat prompts were re-worded to make installation behavior clearer
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-~ Sysinternals - Build Date: 4/20/2015
-= SpaceSniffer: 1.2.0.2
-~ Crystal DiskInfo: 6.2.3
-~ Microsoft Message Analyzer: 1.2
-= Net-snmp: 5.7.0-1
-= Nmap: 6.4.7
-~ Notepad++: 6.7.7
-= Password Control: 2.4
-~ TFTPd: 4.52
-~ WinRAR 5.21
-~ Wireshark: 1.12.4
-= WiseSoftBulkADUsers: 1.0 beta2
-=================
-=================
-v.2.11 Changelog
-
-Known Bugs 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-
-Programming changes:
-- gVim has been removed and replaced with Notepad++ as the add-on editor of choice
-- sched_reboot.vbs script: On Server 2008 and newer machines, the /np switch will be added to new jobs created by the reboot helper automatically.
-- Assuming everything is x64-native or supported going forward
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-~ Sysinternals - Build Date: 9/11/2014
-~ SpaceSniffer: 1.2.0.2
-~ Crystal DiskInfo: 6.2.1
-+ Microsoft Message Analyzer: 1.1
-= Net-snmp: 5.7.0-1
-~ Nmap: 6.4.7
-+ Notepad++: 6.6.9
-- Gvim: replaced with Notepad++
-= Password Control: 2.4
-= TFTPd: 4.50
-~ WinRAR 5.20
-~ Wireshark: 1.12.2
-= WiseSoftBulkADUsers: 1.0 beta2
-=================
-=================
-v.2.10 Changelog
-
-Known Bugs 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-
-Programming changes:
-- Updated the default parameters of the sched_reboot.vbs script. Reboot jobs will now be created with the a scheduled reboot identifier. Reboots should not trigger errors if the device is being monitored with Servcom USA's LifeSaver software.
-- Re-wrote the installer to clear the \installers\ folder on install.
-
-Software Updates:
-- Crystal DiskInfo: 6.0.4
-- Sysinternals - Build Date: 12/19/2013
-- Nmap: 6.4.0
-- Gvim 7.4
-- WinRAR 5.01 - x64 only (no longer supporting x86 version)
-- TFTPd 4.50 - x64 only
-- Wireshark 1.10.5 - x64 only
-=================
-=================
-v2.09 - 04/17/2013
-
-Fixed Bugs
-- If you install this software on Server Core (2008 or 2008 R2), the EULA will not correctly create the registry entries.
-     > Updated the EULA installer for SYSINTERNALS so it will show colors.
-
-Known Bugs 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-
-Full changelog:
-1. Updated the EULA installer for SYSINTERNALS so it will show colors.
-2. Added Installer zip file for Crystal Disk Info
-3. Added NetCopyTest files
-4. Added PasswordControl installer
-5. Added new script -> Connect-Office365.ps1
-6. Added quick-download link to dropbox and a link from the /scripts/ folder up to the dropbox scripts folder for quick-deployment of scripts, if we need to
-7. Added new version of nmap (from 6.01 to 6.25)
-8. Added new versions (32/64-bit) of wireshark (from 1.8.2 to 1.8.6)
-9. Updated the logic in the installer - now it asks if you want to do a full install or not
-- "quick" install skips the Sysinternals EULA and desktop background changing
-- "full" installs are good for servers
-- also, you can re-run the EULA at any time under any user account
-
-=================
-
-=================
-v2.08 - 9/10/2012
-
-Known Bugs 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- If you install this software on Server Core (2008 or 2008 R2), the EULA will not correctly create the registry entries.
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-
-
-Updated by WKR
-1. Added new tools:
-- SpaceSniffer v.1.1.4.0
-- FCIV from Microsoft - allows creating of SHA-1 hashes for MS download files
-- SomarSoft DumpSec - compiles ACLs for various file- and sub-systems
-2. Software Updates
-- Sysinternals - Updated with August 3/2012 version
--- included updates for most of the suite
-- Putty.exe - upgraded from 0.61.0.0 to 0.62.0.0
-- nmap installer - upgraded from 5.51 to 6.01
-- winrar installer - upgraded from 4.11 to 4.20
-- wireshark installer - upgraded from 1.6.5 to 1.8.2
-
-=================
-
-=================
-v2.07 - 2/24/2011
-Updated by WKR
-1. Removed index.html in the root of the \admintools directory that was included by accident with the last distribution.
-2. Added a line to \admintools\installers\clear_installers.bat to remove the \admintools\index.html file in the installation routine.
-3. New installers:
-	- net-snmp v.5.7.0-1
-	- AD Bulk Modify 1.0b2
-4.  Updated the following software in \installers:
-	- winrar installer: 	4.01 	-> 4.11
-	- wireshark installer: 	1.6.1 	-> 1.6.5
-
-=================
-
-=================
-v2.06 - 8/30/2011
-Updated by WKR
-
-Known Bugs - You can schedule reboots in the past with the reboot helper.
-
-1.  Added new program to \: wget.exe
-2.  Added new program to \installers folder: tftpd??-4.00-setup.exe (32- and 64-bit versions included)
-3.  Updated the following software in \:
-	- Wsname.exe: 2.91 -> 2.94
-	- Putty.exe : 0.60 -> 0.61
-4.  Updated the following software in \installers:
-	- nmap installer:	5.21 	-> 5.51
-	- winrar installer: 	3.93 	-> 4.01
-	- wireshark installer: 	1.2.10 	-> 1.6.1
-	- gvim installer:	72	-> 73.46
-5.  Updated the Wsname instructions file \wsname readme.pdf for the new v2.94.
-6.  New version of Sysinternals from 8/18/2011 included in \.
-7.  Install will now prompt for accepting a EULA. This will overwrite all the EULA entries for all the
-	Sysinternals Suite programs if accepted [for currently logged in user only]. 
-	(You can also decline it.)
-8.  Updated the deletion list to keep track of the upgraded files mentioned above.
-9.  Reboot_helper_v1.0.zip in \scripts was removed. Also added it to the deletion list
-
-
-=================
-
-=================
-v2.05 - 2/28/2011
-Updated by WKR
-
-Known Bugs - You can schedule reboots in the past with the reboot helper.
-
-1.  Fixed bug - Months with 2 digits (10-12) get an unnecessary leading '0' in the reboot helper script.
-2.  Fixed Bug - Some days of the month are not correctly preceded with a leading '0'.
-3.  When scheduling a reboot, reboots after 21:00 are automatically scheduled for the next day.
-4.  Tested the gpmc-launcher.bat file in \scripts.
-5.  Upgraded wsname from 2.88b to 2.91. Added instructions to \wsname readme.pdf.
-6.  Removed \vim folder - not being used.
-7.  Updated install script to delete the \vim folder from previous installs.
-8.  Added MagicDisc Download Page link to the \installers folder
-
-
-=================
-
-=================
-v2.04 - 8/16/2010
-Updated by WKR
-
-1. Added WSNAME.exe to the base directory
-2. Updated extend_path.bat to install properly on Server 2003. Now
-	this script will change the base Path env variable on the system,
-	not simply append changes to the user's "path" env variable. This 
-	makes it much more dangerous.
-3. Removed /delay option from set_bginfo.bat.
-4. Added ADModify to the admintools base directory.
-5. Created new folder: scripts.
-6. Writing Reboot creation script. Put that in admintools\scripts.
-7. Copied working launchapp.wsf into admintools\scripts.
-8. Added Dell OpenManage installer to \admintools\installers\
-9. Added new tools to \admintools\:
--- --md5.exe		(md5 checksum program)
--- --passutils.exe	(password generator)
-10. Added download link for RSAT for Windows7
-11. Updated wireshark installers to 1.2.10 (both x86 and x64).
-12. SC_ADMINTOOLS_VERSION is now a global (/m) environment variable
-13. Created a new script in admintools\installers:
--- --clear_installers.bat	(removes old install files from
-				 Version 2.03 and older in 
-				 admintools\installers)
-
-BUG FIXES
-1. Upgrading the admintools from an edited PATH will cause the 
-	c:\admintools* portion of the path to be replicated in the path.
-	-- FIXED
-=================
-
-=================
-v2.03 - 7/13/2010
-Updated by WKR
-
-1. Updated the BGINFO.bgi file to include current Admin Tools version.
-2. Created a new ENV VARIABLE SC_ADMINTOOLS_VERION to update the BGINFO file from.
-=================
-
-=================
-v2.02 - 7/13/2010
-Updated by WKR
-
-1. Updated the netscan (4.4.7) app; added to base directory
-2. Remove the netscan installer from \installers
-3. Added this CHANGELOG file
-4. Updated extend_path.bat to use setx to set the path more agressively
-5. Updated set_bginfo.bat to schedule the task to only run on login
-6. Rebuilding entire archive from scratch for more compact installer.
 =================
