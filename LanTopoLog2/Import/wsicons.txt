@@ -1,4 +1,5 @@
 000085=pr1.gif,pr0.gif
+0000AA=pr1.gif,pr0.gif
 000569=v1.gif,v0.gif
 000C29=v1.gif,v0.gif
 001BA9=pr1.gif,pr0.gif
@@ -14,17 +15,21 @@
 008077=pr1.gif,pr0.gif
 00BBC1=pr1.gif,pr0.gif
 00C0EE=pr1.gif,pr0.gif
+080037=pr1.gif,pr0.gif
 080086=pr1.gif,pr0.gif
 180CAC=pr1.gif,pr0.gif
+1C7D22=pr1.gif,pr0.gif
 245FDF=pr1.gif,pr0.gif
 2C9EFC=pr1.gif,pr0.gif
 30055C=pr1.gif,pr0.gif
+349F7B=pr1.gif,pr0.gif
 389D92=pr1.gif,pr0.gif
 3C2AF4=pr1.gif,pr0.gif
 44D244=pr1.gif,pr0.gif
 60128B=pr1.gif,pr0.gif
 64EB8C=pr1.gif,pr0.gif
 6C7660=pr1.gif,pr0.gif
+788C77=pr1.gif,pr0.gif
 80739F=pr1.gif,pr0.gif
 84BA3B=pr1.gif,pr0.gif
 84BA3B=pr1.gif,pr0.gif
