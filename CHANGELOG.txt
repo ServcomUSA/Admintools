@@ -4,6 +4,57 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
+v.3.2.2 Changelog
+	Maintenance release
+	
+Known Issues 
+	None
+
+Bug Fixes
+	None
+
+
+Programming Changes
+	None
+
+Included Software Versions:
+(=[no change], ~[updated], +[new], -[removed])
+	Root Applications
+	= DumpSec: 2.8.7
+	= FCIV - Publish Date: 5/17/2004
+	= md5.exe - Build Date: 01/14/2008
+	= Passutils: 1.0.0.4
+	~ Putty (x64): 0.76
+	~ rufus-portable.exe: 3.16
+	~ Sysinternals - Build Date: October 15, 2021
+	~ VNC-Viewer: 6.21.920
+	= wsname: 2.93
+	
+	\DiskWriteTest
+	= rdfc.exe: 0.1.0.5
+	= RichCopy: 4.0.217.0	
+	
+	\LanTopoLog2
+	~ LanTopoLog2 Portable: 2.48.12
+
+	\netscan
+	= Advanced IP Scanner (as netscan.exe): 2.5.3850
+	
+	\WakeMeOnLAN
+	= WakeMeOnLAN: 1.87
+
+	
+	\installers (Installable Applications)
+	= 7zip: 19.00
+	~ Crystal DiskInfo: 8.12.11
+	= Net-snmp: 5.7.0-1
+	~ Nmap: 7.92
+	~ Notepad++: 8.1.9
+	= TFTPd: 4.64
+	= TreeSize Free: 4.52
+	
+=================
+=================
 v.3.2.1 Changelog
 	Maintenance release; cleaning up old software that is no longer needed. 
 	Truncating the Changelog file, as well.
