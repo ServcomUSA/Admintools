@@ -9,15 +9,14 @@ L'uso del Software indica l'accettazione del Contratto di Licenza e della Garanz
 LICENZA
 
 L'utente e autorizzato a utilizzare la versione Demo del Software per un periodo illimitato.
-Quando si acquista LanTopoLog, verra visualizzato un file di chiave di licenza
-che converte la demo nella versione completa.
-Il codice di licenza e associato alle opzioni selezionate durante il
-processo di registrazione.
+Quando si acquista LanTopoLog, si ricevera un file di codice licenza
+che convertira la demo nella versione completa.
+Il codice di licenza e associato alle opzioni selezionate durante il processo di registrazione.
 E possibile selezionare fino a tre opzioni per la gestione delle licenze.
 Almeno uno di essi deve essere sempre presente nella mappa LanTopoLog,
 altrimenti la copia di LanTopoLog non viene considerata registrata.
-Il codice di licenza non e rinnovabile, ovvero se tutti e tre questi switch
-vengono sostituiti, sara necessario acquistare una nuova licenza.
+La licenza non puo essere rinnovata indipendentemente dal numero di switch legati alla licenza (1 o 2 o 3).
+Se tutti gli switch registrati vengono sostituiti, sara necessario acquistare una nuova licenza.
 E necessaria una sola licenza per la rete locale con un massimo di 10000 switch gestiti.
 Una licenza consente di eseguire LanTopoLog su piu computer contemporaneamente.
 

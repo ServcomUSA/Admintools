@@ -13,12 +13,14 @@ LIZENZ
 Sie sind hiermit berechtigt, die Demo-Version der Software fur einen unbegrenzten Zeitraum zu verwenden.
 Wenn Sie LanTopoLog erwerben, erhalten Sie eine Lizenzschlussel-Datei,
 die die Demo in die Vollversion umwandeln.
-Der Lizenzschlussel ist an die switches gebunden, die Sie wahrend der
-Registrierungsprozess. Sie konnen bis zu drei switches zur Lizenzierung auswahlen.
+Der Lizenzschlussel ist an die switches gebunden, die Sie wahrend der Registrierungsprozess.
+Sie konnen bis zu drei switches zur Lizenzierung auswahlen.
 Mindestens einer von ihnen muss immer auf der LanTopoLog-Karte vorhanden sein.
 Andernfalls wird Ihre Kopie von LanTopoLog nicht als registriert angesehen.
-Der Lizenzschlussel kann nicht erneuert werden, d. h., wenn alle
-3 dieser switches ersetzt, dann mussen Sie die neue Lizenz erwerben.
+Die Anzahl der anderen Switches ist nicht begrenzt.
+Die Lizenz kann nicht verlangert werden, unabhangig davon,
+wie viele Switches an die Lizenz gebunden sind (1 oder 2 oder 3).
+Wenn alle registrierten Switches ersetzt werden, mussen Sie eine neue Lizenz erwerben.
 Sie benotigen nur eine Lizenz fur ein lokales Netzwerk mit bis zu 10000 verwalteten switches.
 Mit einer Lizenz konnen Sie LanTopoLog auf mehreren Computern gleichzeitig ausfuhren.
 

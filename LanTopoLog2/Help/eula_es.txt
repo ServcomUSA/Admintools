@@ -8,18 +8,14 @@ El uso de este software indica su aceptacion de esta licencia acuerdo y garantia
 
 LICENCIA
 
-Se le otorga la licencia para utilizar la version Demo del Software por un periodo ilimitado.
-Cuando compre LanTopoLog, recibira un archivo de clave de licencia que
-convertira la demostracion en la version completa.
-La clave de licencia esta enlazada a los switches que seleccione
-durante el proceso de registro.
-Puede seleccionar hasta tres switches para la licencia.
-Al menos uno de ellos debe estar siempre presente en el mapa de LanTopoLog,
-de lo contrario, su copia de LanTopoLog no se considera registrada.
-La clave de licencia no es renovable, es decir, si los 3 switches son
-sustituido, entonces necesitara adquirir la nueva licencia.
-Solo necesita una licencia para la red local con hasta 10000 switches administrados.
-Una licencia permite ejecutar LanTopoLog en varios equipos simultaneamente.
+Se le concede licencia para utilizar la version demo del software por un periodo ilimitado.
+Cuando compra LanTopolog, recibira un archivo de clave de licencia que convertira la demo en
+la version completa. La clave de licencia esta vinculada a hasta 3 switches que se
+seleccionan durante el proceso de registro.
+La licencia no se puede renovar independientemente de cuantos switches esten vinculados a la licencia (1 o 2 o 3)
+Si se reemplazan todos los switches registrados, debera comprar una nueva licencia.
+Solo necesita una licencia para la red local con hasta 10000 switches gestionados.
+Una licencia le permite ejecutar LanTopolog en varios equipos simultaneamente.
 
 Todos los derechos no otorgados expresamente aqui estan reservados por Yuriy Volokitin.
 

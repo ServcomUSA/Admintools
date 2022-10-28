@@ -1,9 +1,9 @@
 
 
 
-WakeMeOnLan v1.87
+WakeMeOnLan v1.90
 Copyright (c) 2011 - 2021 Nir Sofer
-Web site: http://www.nirsoft.net
+Web site: https://www.nirsoft.net
 
 
 
@@ -52,6 +52,14 @@ System Requirements And Limitations
 Versions History
 ================
 
+
+* Version 1.90
+  o Added 'All Possible Addresses' to the 'Send The Wake-on-LAN
+    Packet To...' option, which simply causes WakeMeOnLan to send
+    Wake-on-LAN packets to all possible addresses (Broadcast Address
+    255.255.255.255, Broadcast Address According to IP Address, IP
+    Address of the device)
+  o Updated the internal MAC addresses database.
 
 * Version 1.87
   o Updated the internal MAC addresses database.

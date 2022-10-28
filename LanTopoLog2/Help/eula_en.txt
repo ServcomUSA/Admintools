@@ -10,14 +10,15 @@ agreement and warranty.
 LICENSE
 
 You are hereby licensed to use the Demo version of the Software for an unlimited period.
-When you purchase LanTopoLog, you will receive a license key file
-that will convert the demo into the full version.
-The license key is bound to the switches that you select during the
-registration process. You can select up to three switches for licensing.
+When you purchase LanTopoLog, you will receive a license key file that will convert the demo
+into the full version.
+The license key is bound to the switches that you select during the registration process.
+You can select up to three switches for licensing.
 At least one of them must always be present on the LanTopoLog map,
 otherwise, your copy of LanTopoLog is not considered registered.
-License key is not renewable, that is, if all 3 of these switches are
-replaced, then you will need to purchase the new license.
+The number of other switches is not limited.
+License cannot be renewed regardless of how many switches are bound to the license (1 or 2 or 3).
+If all of the registered switches are replaced, then you will need to purchase a new license.
 You need only one license for local network with up to 10000 managed switches.
 One license allows you to run LanTopoLog on multiple computers simultaneously.
 

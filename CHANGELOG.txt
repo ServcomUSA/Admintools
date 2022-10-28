@@ -4,6 +4,58 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
+v.3.2.3 Changelog
+	Maintenance release
+	
+Known Issues 
+	None
+
+Bug Fixes
+	None
+
+
+Programming Changes
+	None
+
+Included Software Versions:
+(=[no change], ~[updated], +[new], -[removed])
+
+	Root Applications
+	= DumpSec: 2.8.7
+	= FCIV - Publish Date: 5/17/2004
+	= md5.exe - Build Date: 01/14/2008
+	= Passutils: 1.0.0.4
+	~ Putty (x64): 0.77
+	~ rufus-portable.exe: 3.20
+	~ Sysinternals - Build Date: October 26, 2022
+	~ VNC-Viewer: 6.22.826
+	= wsname: 2.93
+	
+	\DiskWriteTest
+	= rdfc.exe: 0.1.0.5
+	= RichCopy: 4.0.217.0	
+	
+	\LanTopoLog2
+	~ LanTopoLog2 Portable: 2.49.9
+
+	\netscan
+	~ Advanced IP Scanner (as netscan.exe): 2.5.4594.1
+	
+	\WakeMeOnLAN
+	~ WakeMeOnLAN: 1.90
+
+	
+	\installers (Installable Applications)
+	~ 7zip: 22.01
+	~ Crystal DiskInfo: 8.117.8
+	= Net-snmp: 5.7.0-1
+	~ Nmap: 7.93
+	~ Notepad++: 8.4.6
+	= TFTPd: 4.64
+	~ TreeSize Free: 4.61
+
+=================
+=================
 v.3.2.2 Changelog
 	Maintenance release
 	
@@ -170,407 +222,4 @@ Included Software Versions:
 	~ TreeSize Free: 4.42
 	- WiseSoftBulkADUsers: 1.0 beta2
 
-=================
-=================
-v.3.1.8 Changelog
-Known Issues 
-	None
-
-Bug Fixes
-	#15378 - You can schedule reboots in the past with the reboot helper.
-	#15379 - Server core compatibility - admintools is not officially supported on Server Core/Nano or other Windows server instances w/o a GUI
-	#55263 - When installing Nmap, the netcap driver may break Windows VPN servers; updated versions of netpcap drivers should no longer present this issue, but we still recommend 
-		that you not install the loopback driver on VPN servers
-	#99822 - Custom Views installed by Admintools fail to load on servers without the July 2019 updates installed on them; please make sure this update is installed on machines, or remove the Custom Views from the installation;
-		a note has been added to the installer wizard to indicate this compatibility issue
-
-
-Programming Changes
-	New Tool: TreeSize Free
-	WSUS Offline tool has been retired from this tool - Ticket #92967
-
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	= ADModify: 2.1.2761 [no longer maintained by MS]
-	= Advanced IP Scanner (as netscan.exe): 2.5.3850
-	= arp-ping: 0.5 (9/29/2016)
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	~ LanTopoLog2 Portable: 2.45
-	= md5.exe - Build Date: 01/14/2008
-	= Passutils: 1.0.0.4
-	= Putty (x64): 0.73
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	~ rufus-portable.exe: 3.10
-	= SpaceSniffer: 1.3.0.2
-	~ Sysinternals - Build Date: 12/18/2019
-	~ VNC-Viewer: 6.20.113
-	= WakeMeOnLAN: 1.85
-	~ Wget: 1.20.3
-	= wsname: 2.93
-		
-	Installable Applications
-	= 7zip: 19.00
-	~ Crystal DiskInfo: 8.4.2
-	= Net-snmp: 5.7.0-1
-	= Nmap: 7.80
-	~ Notepad++: 7.8.6
-	= Password Control: 2.4
-	= TFTPd: 4.64
-	+ TreeSize Free: 4.41
-	= WiseSoftBulkADUsers: 1.0 beta2
-	- wsusoffline: 11.8.1
-
-=================
-=================
-v.3.1.7 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core/Nano. Same goes for most of the installers.
-- #55263 - When installing Nmap, the netcap driver may break Windows VPN servers:
->>> Workaround: do not install the loopback driver during Nmap installation <<<
-
-Bug Fixes
-
-
-Programming Changes
-	New Script: Add-UserToLocalAdminOnRemotePCs.ps1 - can add a user account to a specific group on multiple PCs
-	Netscan (Advanced IP Scanner) switched to the extracted/portable version
-	- note that the application path has changed to \admintools\netscan - use the icon!
-
-	WSUS Offline tool will be retired from this utility in 2020
-
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	= ADModify: 2.1.2761
-	= Advanced IP Scanner (as netscan.exe): 2.5.3850
-	= arp-ping: 0.5 (9/29/2016)
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	~ LanTopoLog2 Portable: 2.44
-	= md5.exe - Build Date: 01/14/2008
-	= Passutils: 1.0.0.4
-	~ Putty (x64): 0.73
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	~ rufus-portable.exe: 3.8
-	= SpaceSniffer: 1.3.0.2
-	~ Sysinternals - Build Date: 06/27/2019
-	~ VNC-Viewer: 6.19.923
-	~ WakeMeOnLAN: 1.85
-	= Wget: 1.11.4
-	= wsname: 2.93
-		
-	Installable Applications
-	= 7zip: 19.00
-	~ Crystal DiskInfo: 8.3.1
-	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.80
-	~ Notepad++: 7.8
-	= Password Control: 2.4
-	= TFTPd: 4.64
-	= WiseSoftBulkADUsers: 1.0 beta2
-	~ wsusoffline: 11.8.1
-
-=================
-=================
-v.3.1.6 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core/Nano. Same goes for most of the installers.
-- #55263 - When installing Nmap, the netcap driver may break Windows VPN servers:
->>> Workaround: do not install the loopback driver during Nmap installation <<<
-
-Bug Fixes
-	Added an installer option for TFTPd to the start menu
-
-Programming Changes
-	Added WakeMeOnLAN - freeware utility to send WOL packets
-	
-
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	= ADModify: 2.1.2761
-	~ Advanced IP Scanner (as netscan.exe): 2.5.3850
-	= arp-ping: 0.5 (9/29/2016)
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	~ LanTopoLog2 Portable: 2.42
-	= md5.exe - Build Date: 01/14/2008
-	= Passutils: 1.0.0.4
-	~ Putty (x86): 0.71
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	~ rufus-portable.exe: 3.5
-	= SpaceSniffer: 1.3.0.2
-	~ Sysinternals - Build Date: 04/23/2019
-	~ VNC-Viewer: 6.19.325
-	+ WakeMeOnLAN: 1.84
-	= Wget: 1.11.4
-	= wsname: 2.93
-		
-	Installable Applications
-	~ 7zip: 19.00
-	~ Crystal DiskInfo: 8.1.0
-	= Net-snmp: 5.7.0-1
-	= Nmap: 7.70
-	~ Notepad++: 7.6.6
-	= Password Control: 2.4
-	~ TFTPd: 4.64
-	= WiseSoftBulkADUsers: 1.0 beta2
-	~ wsusoffline: 11.6.2
-
-=================
-=================
-v.3.1.5 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core/Nano. Same goes for most of the installers.
-- #55263 - When installing Nmap, the netcap driver may break Windows VPN servers:
->>> Workaround: do not install the loopback driver during Nmap installation <<<
-
-Bug Fixes
-
-Programming Changes
-	Replaced netscan.exe with Advanced IP Scanner
-	Removed SoftPerfect Switch Port Mapper, replaced with LanTopoLog2
-	
-
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	~ Sysinternals - Build Date: 10/15/2018
-	= ADModify: 2.1.2761
-	= arp-ping: 0.5 (9/29/2016)
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	= Passutils: 1.0.0.4
-	= Putty (x86): 0.70
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	~ rufus-portable.exe: 3.3
-	- SoftPerfect Netscan: 6.1.5
-	+ Advanced IP Scanner (as netscan.exe): 2.5.3646
-	- SoftPerfect Switch Port Mapper (demo license): 2.0.10 - \switchmapper folder
-	+ LanTopoLog2: 2.40
-	= SpaceSniffer: 1.3.0.2
-	~ VNC-Viewer: 6.18.907
-	= Wget: 1.11.4
-	= wsname: 2.93
-		
-	Installable Applications
-	+ 7zip: 18.05
-	~ Crystal DiskInfo: 7.6.0
-	= Net-snmp: 5.7.0-1
-	= Nmap: 7.70
-	~ Notepad++: 7.5.9
-	= Password Control: 2.4
-	~ TFTPd: 4.62
-	= WiseSoftBulkADUsers: 1.0 beta2
-	~ wsusoffline: 11.5
-=================
-=================
-v.3.1.4 Changelog
-Emergency Release to address CVE-2018-10115: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10115
-
-7zip has been replaced with a version that is not affected by this security advisory.
-New version is 18.05.
-
-Included Software versions
-(=[no change], ~[updated], +[new], -[removed])
-~ 7zip: 18.05
-= all others
-=================
-=================
-v.3.1.3 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core/Nano. Same goes for most of the installers.
-- #55263 - When installing Nmap, the netcap driver may break Windows VPN servers:
->>> Workaround: do not install the loopback driver during Nmap installation <<<
-
-Bug Fixes
-#62985 - BGInfo.exe> Workaround for crashes that prevents the background from updating on some x64 systems
-
-Programming Changes
-#57895 - Removed WinRAR, replaced with 7zip - saves space
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	~ Sysinternals - Build Date: 02/13/2018
-	= ADModify: 2.1.2761
-	= arp-ping: 0.5 (9/29/2016)
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	= Passutils: 1.0.0.4
-	~ Putty (x86): 0.70
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	~ rufus-portable.exe: 2.18
-	= SoftPerfect Netscan: 6.1.5 - no more free updates after this version
-	+ SoftPerfect Switch Port Mapper (demo license): 2.0.10 - \switchmapper folder
-	= SpaceSniffer: 1.3.0.2
-	~ VNC-Viewer: 6.17.1113
-	= Wget: 1.11.4
-	= wsname: 2.93
-		
-	Installable Applications
-	+ 7zip: 18.01
-	~ Crystal DiskInfo: 7.6.0
-	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.70
-	~ Notepad++: 7.5.6
-	= Password Control: 2.4
-	= TFTPd: 4.60
-	= WiseSoftBulkADUsers: 1.0 beta2
-	- WinRAR
-	~ wsusoffline: 11.2.2
-=================
-=================
-v.3.1.2 Changelog
-
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core/Nano. Same goes for most of the installers.
-- #55263 - When installing Nmap, the netcap driver may break Windows VPN servers:
->>> Workaround: do not install the loopback driver during Nmap installation <<<
-
-Bug Fixes
-#53704: Clear-DellSEL.ps1 - now explicity requires PowerShell v3 or higher to run
-#53820: Now have an icon for Rufus
-#54533: RebootHelper.vbs no longer shows 'No reported error' when no error reported
-
-Programming Changes
-- Removed link to defunct "Online Scripts Folder" under \scripts (#54685)
-- If wallpaper is being set with bginfo, an existing task will be automatically overwritten with a new instance (#54061)
-- New PowerShell script: Get-Uptime - returns system uptime in a clean format (#53139)
-- New PowerShell script: Test-PingAndDNSLookup.ps1 - can tell you whether a device is online and configured properly
-	on the network (#54686)
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	~ Sysinternals - Build Date: 06/17/2017
-	= ADModify: 2.1.2761
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	= Netscan: 6.1.5 - no more free updates after this version
-	= Passutils: 1.0.0.4
-	~ Putty (x86): 0.70
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	= SpaceSniffer: 1.3.0.2
-	= Wget: 1.11.4
-	= wsname: 2.93
-	~ VNC-Viewer: 6.17.731
-	= arp-ping: 0.5 (9/29/2016)
-	~ rufus-portable.exe: 2.17
-	
-	Installable Applications
-	~ Crystal DiskInfo: 7.1.1
-	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.60
-	~ Notepad++: 7.5.1
-	= Password Control: 2.4
-	= TFTPd: 4.60
-	= WiseSoftBulkADUsers: 1.0 beta2
-	= wsusoffline: 10.9.2
-=================
-=================
-v.3.1.1 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-
-Programming Changes
-- bginfo.bgi: now displays the current Power Plan, will hide more (null) DNS values, should only display active IP Addresses
-- new script: \scripts\Install-CleanupUtility.ps1 - installs the cleanmgr.exe program on servers
-- new script: \scripts\Clear-DellSEL.ps1 - backs up and clears the Dell SEL on Dell servers with OMSA installed
-- new script: \scripts\DiskUse-QuickAnalysis.ps1 - searches common folders where server disk problems accumulate, outputs stats
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	~ Sysinternals - Build Date: 02/17/2017
-	= ADModify: 2.1.2761
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	= Netscan: 6.1.5 - no more free updates after this version
-	= Passutils: 1.0.0.4
-	~ Putty: 0.69
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	= SpaceSniffer: 1.3.0.2
-	= Wget: 1.11.4
-	= wsname: 2.93
-	~ VNC-Viewer: 6.1.0
-	= arp-ping: 0.5 (9/29/2016)
-	+ rufus-portable.exe: 2.1.4
-	
-	Installable Applications
-	~ Crystal DiskInfo: 7.0.5
-	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.40
-	~ Notepad++: 7.2.2
-	= Password Control: 2.4
-	~ TFTPd: 4.60
-	= WiseSoftBulkADUsers: 1.0 beta2
-	= wsusoffline: 10.9.2
-=================
-v.3.1.0 Changelog
-Known Issues 
-- You can schedule reboots in the past with the reboot helper. (Actually useful in some circumstances, however.)
-- Some (not sure how many) of the GUI-based utilities do not work under Server Core. Same goes for most of the installers.
-
-Programming Changes
-- Instructions for WSUS Offline use are included in \installers
-- Moved the Disk-to-Disk Throughput utility to separate subfolder to increase visibility -> \DiskWriteTest
-- Moved SpaceSniffer to a subfolder (organization!)
-- Bug #44502 - re-created NetCopyTest.rcx
-- Bug #43662 - missing some installers in \installers - tfptd and net-snmp installers were missing from some previous builds, are included in this release
-- Adding arp-ping.exe utilities to \ 
-- Installer now creates two new Custom Events (optional)
-- Added a script to the \installer folder to create a task to monitor SMTP services on servers
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	~ Sysinternals - Build Date: 08/29/2016
-	= ADModify: 2.1.2761
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	= Netscan: 6.1.5 - no more free updates after this version
-	= Passutils: 1.0.0.4
-	= Putty: beta 0.67
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0
-	= SpaceSniffer: 1.3.0.2
-	= Wget: 1.11.4
-	= wsname: 2.93
-	+ VNC-Viewer: 6.0.0
-	+ arp-ping: 0.5 (9/29/2016)
-
-	Installable Applications
-	= Crystal DiskInfo: 7.0.4
-	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.31
-	~ Notepad++: 7.2
-	= Password Control: 2.4
-	= TFTPd: 4.52
-	= WiseSoftBulkADUsers: 1.0 beta2
-	= wsusoffline: 10.8
 =================
