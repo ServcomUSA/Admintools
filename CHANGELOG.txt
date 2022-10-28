@@ -15,7 +15,7 @@ Bug Fixes
 
 
 Programming Changes
-	None
+	LanTopoLog2 icon now created in the start menu
 
 Included Software Versions:
 (=[no change], ~[updated], +[new], -[removed])
