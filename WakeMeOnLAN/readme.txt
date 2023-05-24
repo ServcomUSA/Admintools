@@ -1,8 +1,8 @@
 
 
 
-WakeMeOnLan v1.90
-Copyright (c) 2011 - 2021 Nir Sofer
+WakeMeOnLan v1.91
+Copyright (c) 2011 - 2023 Nir Sofer
 Web site: https://www.nirsoft.net
 
 
@@ -52,6 +52,9 @@ System Requirements And Limitations
 Versions History
 ================
 
+
+* Version 1.91
+  o Updated the internal MAC addresses database.
 
 * Version 1.90
   o Added 'All Possible Addresses' to the 'Send The Wake-on-LAN

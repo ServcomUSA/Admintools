@@ -4,6 +4,58 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
+v.3.2.4 Changelog
+	Maintenance release
+	
+Known Issues 
+	None
+
+Bug Fixes
+	None
+
+
+Programming Changes
+	None
+
+Included Software Versions:
+(=[no change], ~[updated], +[new], -[removed])
+
+	Root Applications
+	= DumpSec: 2.8.7
+	= FCIV - Publish Date: 5/17/2004
+	= md5.exe - Build Date: 01/14/2008
+	~ Passutils: 1.0.0.5
+	~ Putty (x64): 0.78
+	~ rufus-portable.exe: 4.0
+	~ Sysinternals - Build Date: May 24, 2023
+	~ VNC-Viewer: 7.1.0.49525
+	= wsname: 2.93
+	
+	\DiskWriteTest
+	= rdfc.exe: 0.1.0.5
+	= RichCopy: 4.0.217.0	
+	
+	\LanTopoLog2
+	~ LanTopoLog2 Portable: 2.49.9
+
+	\netscan
+	~ Advanced IP Scanner (as netscan.exe): 2.5.4594.1
+	
+	\WakeMeOnLAN
+	~ WakeMeOnLAN: 1.90
+
+	
+	\installers (Installable Applications)
+	~ 7zip: 22.01
+	~ Crystal DiskInfo: 8.117.8
+	= Net-snmp: 5.7.0-1
+	~ Nmap: 7.93
+	~ Notepad++: 8.4.6
+	= TFTPd: 4.64
+	~ TreeSize Free: 4.61
+
+=================
+=================
 v.3.2.3 Changelog
 	Maintenance release
 	
@@ -157,69 +209,4 @@ Included Software Versions:
 	= TFTPd: 4.64
 	= TreeSize Free: 4.42
 	
-=================
-=================
-v.3.2.0 Changelog
-	Maintenance release; cleaning up old software that is no longer needed. 
-	Truncating the Changelog file, as well.
-	
-Known Issues 
-	None
-
-Bug Fixes
-	None
-
-
-Programming Changes
-	Removing the following applications:
-		ADModify (abandoned util, features now native to PowerShell)
-		arp-ping
-		wget (features now native to PowerShell)
-		SpaceSniffer - use TreeSize
-		WiseSoftBulkADUsers (abandoned util, features now native to PowerShell)
-		Password Control
-	Removing \installers\fix_bginfo.bat - no longer needed
-
-Included Software Versions:
-(=[no change], ~[updated], +[new], -[removed])
-	Root Applications
-	- ADModify: 2.1.2761 [no longer maintained by MS]
-	- arp-ping: 0.5 (9/29/2016)
-	= DumpSec: 2.8.7
-	= FCIV - Publish Date: 5/17/2004
-	= md5.exe - Build Date: 01/14/2008
-	= Passutils: 1.0.0.4
-	~ Putty (x64): 0.74
-	~ rufus-portable.exe: 3.12
-	- SpaceSniffer: 1.3.0.2
-	~ Sysinternals - Build Date: 10/15/2020
-	~ VNC-Viewer: 6.20.529
-	- Wget: 1.20.3
-	= wsname: 2.93
-	
-	\DiskWriteTest
-	= rdfc.exe: 0.1.0.5
-	= RichCopy: 4.0.217.0	
-	
-	\LanTopoLog2
-	~ LanTopoLog2 Portable: 2.46
-
-	\netscan
-	= Advanced IP Scanner (as netscan.exe): 2.5.3850
-	
-	\WakeMeOnLAN
-	~ WakeMeOnLAN: 1.86
-
-	
-	\installers (Installable Applications)
-	= 7zip: 19.00
-	~ Crystal DiskInfo: 8.8.9
-	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.91
-	~ Notepad++: 7.9
-	- Password Control: 2.4
-	= TFTPd: 4.64
-	~ TreeSize Free: 4.42
-	- WiseSoftBulkADUsers: 1.0 beta2
-
 =================
