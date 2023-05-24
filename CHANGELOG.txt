@@ -36,23 +36,23 @@ Included Software Versions:
 	= RichCopy: 4.0.217.0	
 	
 	\LanTopoLog2
-	~ LanTopoLog2 Portable: 2.49.9
+	~ LanTopoLog2 Portable: 2.50.9
 
 	\netscan
-	~ Advanced IP Scanner (as netscan.exe): 2.5.4594.1
+	= Advanced IP Scanner (as netscan.exe): 2.5.4594.1
 	
 	\WakeMeOnLAN
-	~ WakeMeOnLAN: 1.90
+	~ WakeMeOnLAN: 1.91
 
 	
 	\installers (Installable Applications)
-	~ 7zip: 22.01
-	~ Crystal DiskInfo: 8.117.8
+	= 7zip: 22.01
+	~ Crystal DiskInfo: 8.17.14
 	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.93
-	~ Notepad++: 8.4.6
+	~ Nmap: 7.94
+	~ Notepad++: 8.5.3
 	= TFTPd: 4.64
-	~ TreeSize Free: 4.61
+	~ TreeSize Free: 4.63
 
 =================
 =================
