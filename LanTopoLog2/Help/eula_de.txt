@@ -17,10 +17,12 @@ Der Lizenzschlussel ist an die switches gebunden, die Sie wahrend der Registrier
 Sie konnen bis zu drei switches zur Lizenzierung auswahlen.
 Mindestens einer von ihnen muss immer auf der LanTopoLog-Karte vorhanden sein.
 Andernfalls wird Ihre Kopie von LanTopoLog nicht als registriert angesehen.
-Die Anzahl der anderen Switches ist nicht begrenzt.
-Die Lizenz kann nicht verlangert werden, unabhangig davon,
-wie viele Switches an die Lizenz gebunden sind (1 oder 2 oder 3).
-Wenn alle registrierten Switches ersetzt werden, mussen Sie eine neue Lizenz erwerben.
+Die Lizenz kann nicht verlangert werden und Sie konnen der Lizenz keine neuen Switches hinzufugen.
+auch wenn Sie zunachst nur einen Switch zur Lizenzierung auswahlen.
+Das hei?t, wenn in Zukunft alle registrierten Switches ausgetauscht werden,
+Dann mussen Sie erneut eine neue Lizenz erwerben.
+Offensichtlich halt die Lizenz langer, wenn Sie 3 Switches daran binden und nicht 1.
+Die Anzahl weiterer Switches ist nicht begrenzt.
 Sie benotigen nur eine Lizenz fur ein lokales Netzwerk mit bis zu 10000 verwalteten switches.
 Mit einer Lizenz konnen Sie LanTopoLog auf mehreren Computern gleichzeitig ausfuhren.
 

@@ -12,8 +12,14 @@ Se le concede licencia para utilizar la version demo del software por un periodo
 Cuando compra LanTopolog, recibira un archivo de clave de licencia que convertira la demo en
 la version completa. La clave de licencia esta vinculada a hasta 3 switches que se
 seleccionan durante el proceso de registro.
-La licencia no se puede renovar independientemente de cuantos switches esten vinculados a la licencia (1 o 2 o 3)
-Si se reemplazan todos los switches registrados, debera comprar una nueva licencia.
+Al menos uno de ellos debe estar siempre presente en el mapa LanTopoLog,
+de lo contrario, su copia de LanTopoLog no se considera registrada.
+La licencia no se puede renovar y no puede agregar nuevos switches a la licencia,
+incluso si inicialmente selecciona solo un switch para la licencia.
+Es decir, si todos los switches registrados se reemplazan en el futuro,
+entonces debera comprar una nueva licencia nuevamente.
+Obviamente, la licencia durara mas si vincula 3 switches y no 1.
+El numero de otros switches no esta limitado.
 Solo necesita una licencia para la red local con hasta 10000 switches gestionados.
 Una licencia le permite ejecutar LanTopolog en varios equipos simultaneamente.
 

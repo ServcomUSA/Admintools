@@ -16,9 +16,12 @@ The license key is bound to the switches that you select during the registration
 You can select up to three switches for licensing.
 At least one of them must always be present on the LanTopoLog map,
 otherwise, your copy of LanTopoLog is not considered registered.
+License cannot be renewed and you cannot add new switches to the license, 
+even if you initially select only one switch for licensing.
+That is, if all of the registered switches are replaced in the future,
+then you will need to purchase a new license again.
+Obviously, the license will last longer if you bind 3 switches to it and not 1.
 The number of other switches is not limited.
-License cannot be renewed regardless of how many switches are bound to the license (1 or 2 or 3).
-If all of the registered switches are replaced, then you will need to purchase a new license.
 You need only one license for local network with up to 10000 managed switches.
 One license allows you to run LanTopoLog on multiple computers simultaneously.
 

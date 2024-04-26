@@ -16,8 +16,12 @@ La cle de licence est liee aux commutateurs que vous selectionnez au cours de
 processus d'inscription. Vous pouvez selectionner jusqu'a trois commutateurs pour obtenir une licence.
 Au moins l'un d'entre eux doit toujours etre present sur la carte LanTopoLog,
 sinon, votre copie de LanTopoLog n'est pas consideree comme enregistree.
-La licence ne peut pas etre renouvelee quel que soit le nombre de commutateurs lies a la licence (1 ou 2 ou 3).
-Si tous les commutateurs enregistres sont remplaces, vous devrez acheter une nouvelle licence.
+La licence ne peut pas etre renouvelee et vous ne pouvez pas ajouter de nouveaux commutateurs a la licence,
+meme si vous selectionnez initialement un seul commutateur pour la licence.
+Autrement dit, si tous les commutateurs enregistres sont remplaces a l'avenir,
+vous devrez alors acheter a nouveau une nouvelle licence.
+Evidemment, la licence durera plus longtemps si vous y liez 3 commutateurs et non 1.
+Le nombre d'autres commutateurs n'est pas limite.
 Vous n'avez besoin que d'une seule licence pour le reseau local avec jusqu'a 10000 commutateurs geres.
 Une licence vous permet d'executer LanTopoLog sur plusieurs ordinateurs simultanement.
 

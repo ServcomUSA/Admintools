@@ -15,8 +15,12 @@ Il codice di licenza e associato alle opzioni selezionate durante il processo di
 E possibile selezionare fino a tre opzioni per la gestione delle licenze.
 Almeno uno di essi deve essere sempre presente nella mappa LanTopoLog,
 altrimenti la copia di LanTopoLog non viene considerata registrata.
-La licenza non puo essere rinnovata indipendentemente dal numero di switch legati alla licenza (1 o 2 o 3).
-Se tutti gli switch registrati vengono sostituiti, sara necessario acquistare una nuova licenza.
+La licenza non puo essere rinnovata e non e possibile aggiungere nuovi switch alla licenza,
+anche se inizialmente selezioni solo uno switch per la licenza.
+Cioe, se in futuro tutti gli switch registrati verranno sostituiti,
+quindi sara necessario acquistare nuovamente una nuova licenza.
+Ovviamente la licenza durera di piu se le associ 3 switch e non 1.
+Il numero di altri interruttori non e limitato.
 E necessaria una sola licenza per la rete locale con un massimo di 10000 switch gestiti.
 Una licenza consente di eseguire LanTopoLog su piu computer contemporaneamente.
 
