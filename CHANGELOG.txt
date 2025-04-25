@@ -4,18 +4,18 @@ ADMINTOOLS CHANGELOG
 ** NEWEST VERSION ON TOP
 ************************
 =================
-v.3.2.6 Changelog
+v.3.2.7 Changelog
 	Maintenance release
 
 Known Issues 
 	None
 
 Bug Fixes
-	None
+	New version contains the updated version of 7-Zip that addresses CVE-2025-0411. Please manually update any 7-zip installations on ealier versions immediately
 
 
 Programming Changes
-	wsname.exe has been deprecated and will be removed in a future release
+	wsname.exe has been removed from this utility
 
 Included Software Versions:
 (=[no change], ~[updated], +[new], -[removed])
@@ -25,33 +25,33 @@ Included Software Versions:
 	= FCIV - Publish Date: 5/17/2004
 	= md5.exe - Build Date: 01/14/2008
 	= Passutils: 1.0.0.5
-	= Putty (x64): 0.81
-	~ rufus-portable.exe: 4.6
-	~ Sysinternals - Build Date: July 23, 2024
-	~ VNC-Viewer: 7.12.1
-	= wsname: 2.93
+	~ Putty (x64): 0.83
+	~ rufus-portable.exe: 4.7
+	~ Sysinternals - Build Date: Feb 13, 2025
+	~ VNC-Viewer: 7.13.1.57
+	- wsname
 	
 	\DiskWriteTest
 	= rdfc.exe: 0.1.0.5
 	= RichCopy: 4.0.217.0	
 	
 	\LanTopoLog2
-	~ LanTopoLog2 Portable: 2.52.3
+	~ LanTopoLog2 Portable: 2.52.9
 
 	\netscan
 	= Advanced IP Scanner (as netscan.exe): 2.5.4594.1
 	
 	\WakeMeOnLAN
-	= WakeMeOnLAN: 1.91
+	~ WakeMeOnLAN: 1.93
 
 	
 	\installers (Installable Applications)
-	~ 7zip: 24.08
-	~ Crystal DiskInfo: 9.4.4
+	~ 7zip: 24.09
+	~ Crystal DiskInfo: 9.6.3
 	= Net-snmp: 5.7.0-1
 	= Nmap: 7.95
-	~ Notepad++: 8.6.7
+	~ Notepad++: 8.7.9
 	= TFTPd: 4.64
-	~ TreeSize Free: 4.73	
+	= TreeSize Free: 4.73	
 
 =================
