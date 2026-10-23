@@ -1,10 +1,7 @@
 ADMINTOOLS CHANGELOG
 
-************************
-** NEWEST VERSION ON TOP
-************************
 =================
-v.3.2.8 Changelog
+v.3.2.9 Changelog
 	Maintenance release
 
 Known Issues 
@@ -24,17 +21,17 @@ Included Software Versions:
 	= FCIV - Publish Date: 5/17/2004
 	= md5.exe - Build Date: 01/14/2008
 	= Passutils: 1.0.0.5
-	= Putty (x64): 0.83
-	~ rufus-portable.exe: 4.11
-	~ Sysinternals - Build Date: October 13, 2025
-	~ VNC-Viewer: 7.15.1
+	~ Putty (x64): 0.85
+	~ rufus-portable.exe: 4.15
+	~ Sysinternals - Build Date: October 15, 2026
+	= VNC-Viewer: 7.15.1 (new portable versions no longer publicly available)
 	
 	\DiskWriteTest
 	= rdfc.exe: 0.1.0.5
 	= RichCopy: 4.0.217.0	
 	
 	\LanTopoLog2
-	~ LanTopoLog2 Portable: 2.52.11
+	~ LanTopoLog2 Portable: 2.53.14
 
 	\netscan
 	= Advanced IP Scanner (as netscan.exe): 2.5.4594.1
@@ -44,12 +41,12 @@ Included Software Versions:
 
 	
 	\installers (Installable Applications)
-	~ 7zip: 25.01
-	~ Crystal DiskInfo: 9.7.2
+	~ 7zip: 26.05
+	~ Crystal DiskInfo: 9.9.3
 	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.98
-	~ Notepad++: 8.8.7
+	~ Nmap: 7.992
+	~ Notepad++: 8.9.8.1
 	= TFTPd: 4.64
-	~ TreeSize Free: 4.8.0.603	
+	~ TreeSize Free: 4.8.1	
 
 =================

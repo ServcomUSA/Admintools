@@ -1,7 +1,6 @@
 LanTopoLog 2 License Agreement
 
 The copyright for LanTopoLog 2 belongs to Yuriy Volokitin.
-
 This Software is shareware.
 Use and/or distribute it under the terms of the LanTopoLog 2 license.
 Your use of this Software indicates your acceptance of this license
@@ -13,14 +12,16 @@ You are hereby licensed to use the Demo version of the Software for an unlimited
 When you purchase LanTopoLog, you will receive a license key file that will convert the demo
 into the full version.
 The license key is bound to the switches that you select during the registration process.
-You can select up to three switches for licensing.
+Only managed switches can be selected for license binding.
+You can select one or two or three switches for licensing.
 At least one of them must always be present on the LanTopoLog map,
 otherwise, your copy of LanTopoLog is not considered registered.
-License cannot be renewed and you cannot add new switches to the license, 
+Obviously, the license will last longer if you select 3 switches and not 1 -
+even if 2 of them are replaced, the third one will provide the license.
+License cannot be renewed and you cannot add new switches to the license,
 even if you initially select only one switch for licensing.
-That is, if all of the registered switches are replaced in the future,
+That is, if all of these registered switches are replaced in the future,
 then you will need to purchase a new license again.
-Obviously, the license will last longer if you bind 3 switches to it and not 1.
 The number of other switches is not limited.
 You need only one license for local network with up to 10000 managed switches.
 One license allows you to run LanTopoLog on multiple computers simultaneously.
@@ -28,25 +29,25 @@ One license allows you to run LanTopoLog on multiple computers simultaneously.
 All rights not expressly granted here are reserved by Yuriy Volokitin.
 
 Restrictions
-You may not emulate, rent, lease, sell, modify, decompile, disassemble,
-reverse engineer. Any such unauthorized use shall result
-in immediate and automatic termination of this license.
+You may not emulate, rent, lease, sell, modify, decompile, disassemble, reverse engineer,
+create derivative works based on the Software, or transfer the licensed program, or any subset
+of the licensed program. Any such unauthorized use shall result in immediate and automatic
+termination of this license.
 
 Disclaimer of Warranty
-This Software is provided "AS IS" and without warranty of any kind,
-express, implied or otherwise.
-The entire risk arising out of use or performance of the Software
+This Software is provided "AS IS" and without warranty of any kind, express, implied or
+otherwise, including without limitation, any warranty of merchantability or fitness for
+a particular purpose. The entire risk arising out of use or performance of the Software
 remains with you.
 
 Distribution
-The LanTopoLog 2 Demo version may be freely distributed,
-provided distribution package is not modified and form
-a complete package when distributed.
-This license must be included with all copies of the Software,
-and may not be modified from its original format as created by
+The LanTopoLog 2 Demo version may be freely distributed, provided distribution package
+is not modified and form a complete package when distributed. This license must be included
+with all copies of the Software, and may not be modified from its original format as created by
 the Licensor.
 
 All updates to the LanTopoLog 2 are free.
 
 If you do not agree with the terms of this license you must cease to use the product.
 
+Note: There is no a special Technician License of LanTopoLog that would be valid on multiple networks.

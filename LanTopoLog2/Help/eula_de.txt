@@ -1,10 +1,9 @@
+	
 LanTopoLog 2 Lizenzvereinbarung
 
 Das Copyright fur LanTopoLog 2 liegt bei Yuriy Volokitin.
-
 Diese Software ist Shareware.
-Verwenden und/oder verteilen Sie es unter den Bedingungen der
-LanTopoLog 2 Lizenz.
+Verwenden und/oder verteilen Sie es unter den Bedingungen der LanTopoLog 2 Lizenz.
 Ihre Verwendung dieser Software bedeutet, dass Sie diese Lizenz
 akzeptieren Vereinbarung und Gewahrleistung.
 
@@ -14,14 +13,15 @@ Sie sind hiermit berechtigt, die Demo-Version der Software fur einen unbegrenzte
 Wenn Sie LanTopoLog erwerben, erhalten Sie eine Lizenzschlussel-Datei,
 die die Demo in die Vollversion umwandeln.
 Der Lizenzschlussel ist an die switches gebunden, die Sie wahrend der Registrierungsprozess.
+Für die Lizenzbindung können nur verwaltete Switches ausgewählt werden.
 Sie konnen bis zu drei switches zur Lizenzierung auswahlen.
 Mindestens einer von ihnen muss immer auf der LanTopoLog-Karte vorhanden sein.
 Andernfalls wird Ihre Kopie von LanTopoLog nicht als registriert angesehen.
-Die Lizenz kann nicht verlangert werden und Sie konnen der Lizenz keine neuen Switches hinzufugen.
-auch wenn Sie zunachst nur einen Switch zur Lizenzierung auswahlen.
-Das hei?t, wenn in Zukunft alle registrierten Switches ausgetauscht werden,
-Dann mussen Sie erneut eine neue Lizenz erwerben.
-Offensichtlich halt die Lizenz langer, wenn Sie 3 Switches daran binden und nicht 1.
+Die Lizenz kann nicht verlängert werden und Sie können der Lizenz keine neuen Switches hinzufügen.
+auch wenn Sie zunächst nur einen Switch zur Lizenzierung auswählen.
+Das heißt, wenn in Zukunft alle registrierten Switches ausgetauscht werden,
+Dann müssen Sie erneut eine neue Lizenz erwerben.
+Offensichtlich hält die Lizenz länger, wenn Sie 3 Switches daran binden und nicht 1.
 Die Anzahl weiterer Switches ist nicht begrenzt.
 Sie benotigen nur eine Lizenz fur ein lokales Netzwerk mit bis zu 10000 verwalteten switches.
 Mit einer Lizenz konnen Sie LanTopoLog auf mehreren Computern gleichzeitig ausfuhren.
@@ -40,10 +40,16 @@ Das gesamte Risiko, das sich aus der Nutzung oder Leistung der Software ergibt
 bleibt bei dir.
 
 Verteilung
-Diese Lizenz muss in allen Kopien der Software enthalten sein.
-und durfen nicht von ihrem ursprunglichen Format geandert werden,
-wie es von der Lizenzgeber.
+Die LanTopoLog 2-Demoversion kann frei verteilt werden,
+sofern das Distributionspaket nicht geändert wird und
+bei der Verteilung ein vollständiges Paket bildet.
+Diese Lizenz muss in allen Kopien der Software enthalten sein und darf
+nicht von ihrem vom Lizenzgeber erstellten Originalformat geändert werden
+
+Alle Updates fur das LanTopoLog 2 sind kostenlos.
 
 Wenn Sie mit den Bedingungen dieser Lizenz nicht einverstanden sind,
-mussen Sie die Nutzung des Produkts einstellen.
+müssen Sie die Nutzung des Produkts einstellen.
 
+Hinweis: Es gibt keine spezielle Technikerlizenz von LanTopoLog,
+die in mehreren Netzwerken gultig ware.

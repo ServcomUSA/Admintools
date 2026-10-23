@@ -1,50 +1,53 @@
 Acuerdo de Licencia de LanTopoLog 2
 
 Los derechos de autor de LanTopoLog 2 pertenecen a Yuriy Volokitin.
-
 Este Software es shareware.
 Utilicelo y/o distribuya bajo los terminos de la licencia de LanTopoLog 2.
 El uso de este software indica su aceptacion de esta licencia acuerdo y garantia.
 
 LICENCIA
 
-Se le concede licencia para utilizar la version demo del software por un periodo ilimitado.
-Cuando compra LanTopolog, recibira un archivo de clave de licencia que convertira la demo en
-la version completa. La clave de licencia esta vinculada a hasta 3 switches que se
-seleccionan durante el proceso de registro.
+Se le concede licencia para utilizar la versión demo del software por un período ilimitado.
+Cuando compra LanTopolog, recibirá un archivo de clave de licencia que convertirá la demo en
+la versión completa.
+La clave de licencia está vinculada a los conmutadores que seleccione durante el proceso de registro.
+Solo se pueden seleccionar switches administrados para la vinculación de licencias.
+Puede seleccionar hasta tres switches para la concesión de licencias.
 Al menos uno de ellos debe estar siempre presente en el mapa LanTopoLog,
-de lo contrario, su copia de LanTopoLog no se considera registrada.
-La licencia no se puede renovar y no puede agregar nuevos switches a la licencia,
-incluso si inicialmente selecciona solo un switch para la licencia.
+de lo contrario, su copia de LanTopoLog no se considerará registrada.
+La licencia no se puede renovar y no se pueden agregar nuevos cambios a la licencia.
+incluso si inicialmente selecciona solo un conmutador para la licencia.
 Es decir, si todos los switches registrados se reemplazan en el futuro,
-entonces debera comprar una nueva licencia nuevamente.
-Obviamente, la licencia durara mas si vincula 3 switches y no 1.
-El numero de otros switches no esta limitado.
-Solo necesita una licencia para la red local con hasta 10000 switches gestionados.
-Una licencia le permite ejecutar LanTopolog en varios equipos simultaneamente.
+entonces deberá comprar una nueva licencia nuevamente.
+Obviamente, la licencia durará más si vincula 3 switches y no 1.
+El número de otros switches no está limitado.
+Sólo necesita una licencia para la red local con hasta 10000 switches gestionados.
+Una licencia le permite ejecutar LanTopolog en varios equipos simultáneamente.
 
-Todos los derechos no otorgados expresamente aqui estan reservados por Yuriy Volokitin.
+Todos los derechos no expresamente concedidos aquí son reservados por Yuriy Volokitin.
 
 Restricciones
-No puede emular, alquilar, arrendar, vender, modificar, descompilar, desmontar,
-ingenieria inversa. Cualquier uso no autorizado debera dar lugar a
-en caso de extincion inmediata y automatica de esta licencia.
+El usuario no puede emular, alquilar, arrendar, vender, modificar, descompilar, desensamblar,
+realizar ingeniería inversa, crear trabajos derivados basados en el Software, o transferir el
+programa licenciado o cualquier subconjunto del programa bajo licencia. El Software, en su
+totalidad o en parte, no puede ser incorporado con o en cualquier otro producto de software.
+Cualquier uso no dará lugar a la inmediata y automática terminación de esta licencia.
 
-Renuncia de garantia
-Este Software se suministra "TAL CUAL" y sin garantia de ningun tipo,
-expreso, implicito o de otro tipo.
-Todo el riesgo derivado del uso o rendimiento del Software
-permanece contigo.
+Renuncia de garantía
+Este software se proporciona "tal cual" y sin garantía de ningún tipo,
+explícita, implícita o de otro tipo, incluyendo sin limitación, cualquier garantía de
+comerciabilidad o aptitud para un propósito en particular. El riesgo que surja del uso o
+rendimiento del Software se queda con ustedes.
 
+Distribución
+La versión LanTopolog 2 Demo puede ser distribuido libremente, siempre paquete de
+distribución no se modifica y formar un paquete completo cuando se distribuye. Esta licencia
+debe ser incluido en todas las copias del Software, y no puede ser modificado desde su
+formato original creado por el licenciador.
 
-Distribucion
-La version demo de LanTopoLog 2 puede distribuirse libremente,
-el paquete de distribucion proporcionado no se modifica y forma
-un paquete completo cuando se distribuye.
-Esta licencia debe incluirse con todas las copias del Software,
-y no puede ser modificado desde su formato original como fue creado por
-el licenciante.
+Todos los cambios a la LanTopolog 2 años entran gratis.
 
-Todas las actualizaciones de LanTopoLog 2 son gratuitas.
+Si no está de acuerdo con los términos de esta licencia, debe dejar de utilizar el producto.
 
-Si no esta de acuerdo con los terminos de esta licencia, debe dejar de usar el producto.
+Nota: No existe una Licencia de Técnico especial de LanTopoLog que sería válida en múltiples redes.
+
