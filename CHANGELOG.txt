@@ -11,7 +11,8 @@ Bug Fixes
 	None
 
 Programming Changes
-	None
+	zoomIt.exe too large to update in this verison; excluded
+	Nmap has been removed from this toolkit
 
 Included Software Versions:
 (=[no change], ~[updated], +[new], -[removed])
@@ -23,7 +24,7 @@ Included Software Versions:
 	= Passutils: 1.0.0.5
 	~ Putty (x64): 0.85
 	~ rufus-portable.exe: 4.15
-	~ Sysinternals - Build Date: October 15, 2026 *zoomIt too large to update in this verison; excluded
+	~ Sysinternals - Build Date: October 15, 2026 
 	= VNC-Viewer: 7.15.1 (new portable versions no longer publicly available)
 	
 	\DiskWriteTest
@@ -44,7 +45,7 @@ Included Software Versions:
 	~ 7zip: 26.05
 	~ Crystal DiskInfo: 9.9.3
 	= Net-snmp: 5.7.0-1
-	~ Nmap: 7.992
+	- Nmap: 7.992
 	~ Notepad++: 8.9.8.1
 	= TFTPd: 4.64
 	~ TreeSize Free: 4.8.1	
