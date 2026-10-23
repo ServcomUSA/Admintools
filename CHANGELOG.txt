@@ -23,7 +23,7 @@ Included Software Versions:
 	= Passutils: 1.0.0.5
 	~ Putty (x64): 0.85
 	~ rufus-portable.exe: 4.15
-	~ Sysinternals - Build Date: October 15, 2026
+	~ Sysinternals - Build Date: October 15, 2026 *zoomIt too large to update in this verison; excluded
 	= VNC-Viewer: 7.15.1 (new portable versions no longer publicly available)
 	
 	\DiskWriteTest
